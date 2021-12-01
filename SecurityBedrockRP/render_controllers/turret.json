@@ -1,0 +1,37 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.turret": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "array.Textures[ query.skin_id ]"
+            ],
+            "arrays": {
+                "textures": {
+                    "array.Textures":[
+                        "texture.default",
+                        "texture.cobblestone_skin",
+                        "texture.dirt_skin",
+                        "texture.oak_skin",
+                        "texture.minion",
+                        "texture.nissanuwu",
+                        "texture.magocristal",
+                        "texture.sand",
+                        "texture.amethyst"
+                    ]
+                }
+            },
+            "is_hurt_color": {
+                "a":1,
+                "b":23,
+                "g":23,
+                "r":23
+            }
+        }
+    }
+}

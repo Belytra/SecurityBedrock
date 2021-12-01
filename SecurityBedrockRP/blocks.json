@@ -1,0 +1,7 @@
+{   
+    "format_version": [1,16,0],
+    "sbc:security_table":{
+        "sound": "chain",
+        "textures": "security_table"
+    }
+}

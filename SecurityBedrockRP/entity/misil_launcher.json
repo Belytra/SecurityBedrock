@@ -1,0 +1,48 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "scb:misil_launcher",
+			"min_engine_version": "1.12.0",
+			"materials": {
+				"default": "chicken",
+				"legs": "chicken_legs"
+			},
+			"textures": {
+				"default": "textures/entity/misil_launcher"
+			},
+			"geometry": {
+				"default": "geometry.misil_launcher"
+			},
+			"animations": {
+				"move": "animation.chicken.move",
+				"general": "animation.chicken.general",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.chicken.baby_transform",
+				"close": "animation.torreta.geo.off",
+				"open": "animation.torreta.on",
+				"animach": "controller.animation.torreta"
+			},
+			"scripts": {
+				"animate": [
+					"general",
+					{
+						"move": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.turret"
+			],
+			"spawn_egg": {
+				"texture": "missile_launcher",
+				"texture_index": 0
+			}
+		}
+	}
+}

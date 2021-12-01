@@ -1,0 +1,44 @@
+# ITEMS / BLOCKS
+
+tile.security_table.name=§dSecurity Table §a| §7#SBC
+tile.monitor.name=§dMonitor §a| §7#SBC
+tile.laptop.name=§dLaptop §a| §7#SBC
+tile.sbc:reinforced_chest.name=§dReinforced Chest §a| §7#SBC
+tile.sbc:reinforced_door.name=§dReinforced Door §a| §7#SBC
+tile.sbc:iron_trap.name=§dIron Trap §a| §7#SBC
+tile.land_mine.name=§dLand Mine §a| §7#SBC
+tile.scb:iron_block_reinforced.name=§dIron Block Reinforced §a| §7#SBC
+
+block_reinforcer=§dBlock Reinforcer §a| §7#SBC
+padlock=§dPadlock §a| §7#SBC
+sbc_link=§dSbc Link §e[ unlinked ] §a| §7#SBC
+sbc_usb=§dSbc Usb §e[ No Data ] §a| §7#SBC
+night_glasses=§dNight Glasses §a| §7#SBC
+mine_remote=§dMine Remote §a| §7#SBC
+taser=§dTaser §a| §7#SBC
+block_remover=§dBlock Remover §a| §7#SBC
+battery=§dBattery §a| §7#SBC
+item.spawn_egg.entity.sbc:turret.name=§dTurret §a| §7#SBC
+camouflage_kit=§dCamouflage Kit §a| §7#SBC
+scanner_module=§dScanner Module §a| §7#SBC
+tablet=§dTablet §a| §7#SBC
+land_mine_deactivate=§dLand Mine Deactivate §a| §7#SBC
+bulletproof=§dBulletproof §a| §7#SBC
+tile.danger_alarm.name=§dDanger Alarm §a| §7#SBC
+tile.camera.name=§dCamera §a| §7#SBC
+
+#Block Placers
+laptop_block_placer=§dLaptop §a| §7#SBC
+
+# USB
+sbc_usb_data_chicken=§dSbc Usb §e[ Chicken ] §a| §7#SBC
+sbc_usb_data_cow=§dSbc Usb §e[ Cow ] §a| §7#SBC
+sbc_usb_data_pig=§dSbc Usb §e[ Pig ] §a| §7#SBC
+sbc_usb_data_sheep=§dSbc Usb §e[ Sheep ] §a| §7#SBC
+
+# ENTITY
+
+entity.sbc:re_chest_inv.name=Reinforced Chest
+entity.sbc:turret_spawn_egg.name=§dTurret §a| §7#SBC
+
+# EGGS

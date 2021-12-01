@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.tablet_fp",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "rightarm",
+					"parent": "body",
+					"pivot": [-6, 23, 0]
+				},
+				{
+					"name": "item",
+					"parent": "rightarm",
+					"pivot": [-6.46148, 13.01057, -0.29931],
+					"rotation": [37.5, -30, -180],
+					"cubes": [
+						{"origin": [-12.46148, 7.01057, -0.79931], "size": [12, 12, 1], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

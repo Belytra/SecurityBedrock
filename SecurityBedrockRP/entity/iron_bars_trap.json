@@ -1,0 +1,47 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "scb:iron_bars_trap",
+			"min_engine_version": "1.12.0",
+			"materials": {
+				"legs": "chicken_legs",
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/iron_bars_trap"
+			},
+			"geometry": {
+				"default": "geometry.iron_bars_trap"
+			},
+			"animations": {
+				"move": "animation.blank",
+				"general": "animation.blank",
+				"look_at_target": "animation.blank",
+				"baby_transform": "animation.blank",
+				"exe": "controller.animation.blank"
+			},
+			"scripts": {
+				"animate": [
+					"general",
+					{
+						"move": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"exe"
+				]
+			},
+			"render_controllers": [
+				"controller.render.turret"
+			],
+			"spawn_egg": {
+				"texture": "iron_bars_trap",
+				"texture_index": 0
+			}
+		}
+	}
+}

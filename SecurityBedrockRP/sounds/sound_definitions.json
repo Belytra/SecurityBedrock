@@ -1,0 +1,53 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+        "stable.place":{
+            "category": "block",
+            "sounds": [
+                "belytra_assets/sounds/security_table/stable"
+            ]
+        },
+        "radar.alert":{
+            "category": "block",
+            "sounds": [
+                "belytra_assets/sounds/radar/radar_alert"
+            ]
+        },
+        "utils.beepaction":{
+            "category": "block",
+            "sounds": [
+                "belytra_assets/sounds/utils/beepaction"
+            ]
+        },
+        "utils.padlock":{
+            "category": "block",
+            "sounds": [
+                "belytra_assets/sounds/utils/padlock"
+            ]
+        },
+        "utils.connect":{
+            "category": "block",
+            "sounds": [
+                "belytra_assets/sounds/utils/connect"
+            ]
+        },
+        "utils.taser":{
+            "category": "block",
+            "sounds": [
+                "belytra_assets/sounds/utils/taser"
+            ]
+        },
+        "utils.door":{
+            "category": "block",
+            "sounds": [
+                "belytra_assets/sounds/utils/secure_door"
+            ]
+        },
+        "utils.ui.exit":{
+            "category": "music",
+            "sounds": [
+                "belytra_assets/sounds/utils/ui_exit"
+            ]
+        }
+    }
+}

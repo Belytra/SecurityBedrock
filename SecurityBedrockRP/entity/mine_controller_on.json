@@ -1,0 +1,23 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+	  "description": {
+		"identifier": "scb:mine_controller_on",
+		"materials": { "default": "entity" },
+		"textures": { "default": "textures/entity/mine_controller_on" },
+		"geometry": { "default": "geometry.mine_controller" },
+		"render_controllers": [ "controller.render.mine_controller" ],
+		"animations":{
+			"stop": "animation.mine_controller.stop",
+			"stop_c": "controller.animation.mine_controller.stop"
+		  },
+		  "scripts": {
+			"animate": ["stop_c"],
+		    "pre_animation": ["variable.attack = Math.sin(variable.attack_time * 30.0);"]},
+		"spawn_egg": {
+			"texture": "mine_controller"
+		}
+	  }
+	}
+  }

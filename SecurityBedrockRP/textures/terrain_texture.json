@@ -1,0 +1,4345 @@
+
+{
+    "num_mip_levels" : 4,
+    "padding" : 8,
+    "resource_pack_name" : "vanilla",
+    "texture_data": {
+		"alarm_block":{
+			"textures":[
+				"belytra_assets/entity/alarm"
+			]
+		},
+		"mine_deactivated":{
+			"textures":[
+				"belytra_assets/entity/mine_inactive"
+			]
+		},
+		"scanner_door":{
+			"textures":[
+				"belytra_assets/entity/scanner_door"
+			]
+		},
+		"security_camera":{
+			"textures":[
+				"belytra_assets/entity/function_blocks/security_camera"
+			]
+		},
+		"reinforced_door":{
+			"textures":[
+				"belytra_assets/entity/key_door"
+			]
+		},
+		"reinforced_chest":{
+			"textures":[
+				"belytra_assets/entity/key_chest"
+			]
+		},
+		"laptop":{
+			"textures":[
+				"belytra_assets/tecno/laptop"
+			]
+		},
+		"laptop_chicken":{
+			"textures":[
+				"belytra_assets/tecno/laptop_chicken"
+			]
+		},
+		"laptop_monster":{
+			"textures":[
+				"belytra_assets/tecno/laptop_monster"
+			]
+		},
+		"monitor_display_tasbien":{
+			"textures":[
+				"belytra_assets/monitor/displays/tasbien"
+			]
+		},
+		"monitor_display_niniclean":{
+			"textures":[
+				"belytra_assets/monitor/displays/niniclean"
+			]
+		},
+		"monitor_off":{
+			"textures":[
+				"belytra_assets/monitor/security_panel"
+			]
+		},
+		"monitor_success":{
+			"textures":[
+				"belytra_assets/monitor/security_panel_success"
+			]
+		},
+		"monitor_alert":{
+			"textures":[
+				"belytra_assets/monitor/security_panel_alert"
+			]
+		},
+		"electric_fence":{
+			"textures":[
+				"belytra_assets/entity/electric_fence"
+			]
+		},
+		"security_table": {
+			"textures": [
+				"belytra_assets/blocks/texture_scb_table"
+			]
+		},
+		"mine_on": {
+			"textures": [
+				"belytra_assets/entity/mine"
+			]
+		},
+		"mine_off": {
+			"textures": [
+				"belytra_assets/entity/mine_inactive"
+			]
+		},
+		"iron_trap":{
+			"textures": [
+				"belytra_assets/blocks/iron_trap"
+			]
+		},
+		"BLOQUES_REFORZADOS......................":{
+			"textures":[
+				"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			]
+		},
+
+
+
+		"glass_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_reinforced"
+			]
+		},
+		"glass_black_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_black_reinforced"
+			]
+		},
+		"glass_blue_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_blue_reinforced"
+			]
+		},
+		"glass_brown_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_brown_reinforced"
+			]
+		},
+		"glass_cyan_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_cyan_reinforced"
+			]
+		},
+		"glass_gray_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_gray_reinforced"
+			]
+		},
+		"glass_green_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_green_reinforced"
+			]
+		},
+		"glass_light_blue_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_light_blue_reinforced"
+			]
+		},
+		"glass_lime_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_lime_reinforced"
+			]
+		},
+		"glass_magenta_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_magenta_reinforced"
+			]
+		},
+		"glass_orange_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_orange_reinforced"
+			]
+		},
+		"glass_pink_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_pink_reinforced"
+			]
+		},
+		"glass_purple_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_purple_reinforced"
+			]
+		},
+		"glass_red_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_red_reinforced"
+			]
+		},
+		"glass_silver_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_silver_reinforced"
+			]
+		},
+		"glass_white_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_white_reinforced"
+			]
+		},
+		"glass_yellow_reinforced": {
+			"textures": [
+				"belytra_assets/blocks/glass_yellow_reinforced"
+			]
+		},
+
+
+
+		"acacia_trapdoor_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/acacia_trapdoor_reinforced"
+			]
+		},
+		"amethyst_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/amethyst_block_reinforced"
+			]
+		},
+		"amethyst_cluster_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/amethyst_cluster_reinforced"
+			]
+		},
+		"ancient_debris_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/ancient_debris_side_reinforced"
+			]
+		},
+		"ancient_debris_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/ancient_debris_top_reinforced"
+			]
+		},
+		"anvil_base_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/anvil_base_reinforced"
+			]
+		},
+		"anvil_top_damaged_0_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/anvil_top_damaged_0_reinforced"
+			]
+		},
+		"anvil_top_damaged_1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/anvil_top_damaged_1_reinforced"
+			]
+		},
+		"anvil_top_damaged_2_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/anvil_top_damaged_2_reinforced"
+			]
+		},
+		"azalea_leaves_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/azalea_leaves_reinforced"
+			]
+		},
+		"azalea_leaves_flowers_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/azalea_leaves_flowers_reinforced"
+			]
+		},
+		"azalea_leaves_flowers_opaque_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/azalea_leaves_flowers_opaque_reinforced"
+			]
+		},
+		"azalea_leaves_opaque_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/azalea_leaves_opaque_reinforced"
+			]
+		},
+		"azalea_plant_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/azalea_plant_reinforced"
+			]
+		},
+		"azalea_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/azalea_side_reinforced"
+			]
+		},
+		"azalea_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/azalea_top_reinforced"
+			]
+		},
+		"bamboo_leaf_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bamboo_leaf_reinforced"
+			]
+		},
+		"bamboo_sapling_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bamboo_sapling_reinforced"
+			]
+		},
+		"bamboo_singleleaf_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bamboo_singleleaf_reinforced"
+			]
+		},
+		"bamboo_small_leaf_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bamboo_small_leaf_reinforced"
+			]
+		},
+		"bamboo_stem_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bamboo_stem_reinforced"
+			]
+		},
+		"barrel_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/barrel_bottom_reinforced"
+			]
+		},
+		"barrel_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/barrel_side_reinforced"
+			]
+		},
+		"barrel_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/barrel_top_reinforced"
+			]
+		},
+		"barrel_top_open_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/barrel_top_open_reinforced"
+			]
+		},
+		"barrier_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/barrier_reinforced"
+			]
+		},
+		"basalt_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/basalt_side_reinforced"
+			]
+		},
+		"basalt_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/basalt_top_reinforced"
+			]
+		},
+		"beacon_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/beacon_reinforced"
+			]
+		},
+		"bedrock_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bedrock_reinforced"
+			]
+		},
+		"bed_feet_end_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bed_feet_end_reinforced"
+			]
+		},
+		"bed_feet_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bed_feet_side_reinforced"
+			]
+		},
+		"bed_feet_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bed_feet_top_reinforced"
+			]
+		},
+		"bed_head_end_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bed_head_end_reinforced"
+			]
+		},
+		"bed_head_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bed_head_side_reinforced"
+			]
+		},
+		"bed_head_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bed_head_top_reinforced"
+			]
+		},
+		"beehive_front_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/beehive_front_reinforced"
+			]
+		},
+		"beehive_front_honey_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/beehive_front_honey_reinforced"
+			]
+		},
+		"beehive_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/beehive_side_reinforced"
+			]
+		},
+		"beehive_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/beehive_top_reinforced"
+			]
+		},
+		"beetroots_stage_0_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/beetroots_stage_0_reinforced"
+			]
+		},
+		"beetroots_stage_1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/beetroots_stage_1_reinforced"
+			]
+		},
+		"beetroots_stage_2_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/beetroots_stage_2_reinforced"
+			]
+		},
+		"beetroots_stage_3_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/beetroots_stage_3_reinforced"
+			]
+		},
+		"bee_nest_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bee_nest_bottom_reinforced"
+			]
+		},
+		"bee_nest_front_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bee_nest_front_reinforced"
+			]
+		},
+		"bee_nest_front_honey_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bee_nest_front_honey_reinforced"
+			]
+		},
+		"bee_nest_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bee_nest_side_reinforced"
+			]
+		},
+		"bee_nest_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bee_nest_top_reinforced"
+			]
+		},
+		"bell_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bell_bottom_reinforced"
+			]
+		},
+		"bell_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bell_side_reinforced"
+			]
+		},
+		"bell_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bell_top_reinforced"
+			]
+		},
+		"big_dripleaf_side1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/big_dripleaf_side1_reinforced"
+			]
+		},
+		"big_dripleaf_side2_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/big_dripleaf_side2_reinforced"
+			]
+		},
+		"big_dripleaf_stem_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/big_dripleaf_stem_reinforced"
+			]
+		},
+		"big_dripleaf_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/big_dripleaf_top_reinforced"
+			]
+		},
+		"birch_trapdoor_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/birch_trapdoor_reinforced"
+			]
+		},
+		"blackstone_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/blackstone_reinforced"
+			]
+		},
+		"blackstone_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/blackstone_top_reinforced"
+			]
+		},
+		"blast_furnace_front_off_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/blast_furnace_front_off_reinforced"
+			]
+		},
+		"blast_furnace_front_on_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/blast_furnace_front_on_reinforced"
+			]
+		},
+		"blast_furnace_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/blast_furnace_side_reinforced"
+			]
+		},
+		"blast_furnace_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/blast_furnace_top_reinforced"
+			]
+		},
+		"blue_ice_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/blue_ice_reinforced"
+			]
+		},
+		"bone_block_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bone_block_side_reinforced"
+			]
+		},
+		"bone_block_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bone_block_top_reinforced"
+			]
+		},
+		"bookshelf_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bookshelf_reinforced"
+			]
+		},
+		"border_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/border_reinforced"
+			]
+		},
+		"brewing_stand_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/brewing_stand_reinforced"
+			]
+		},
+		"brewing_stand_base_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/brewing_stand_base_reinforced"
+			]
+		},
+		"brick_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/brick_reinforced"
+			]
+		},
+		"bubble_column_down_top_a_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_down_top_a_reinforced"
+			]
+		},
+		"bubble_column_down_top_b_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_down_top_b_reinforced"
+			]
+		},
+		"bubble_column_down_top_c_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_down_top_c_reinforced"
+			]
+		},
+		"bubble_column_down_top_d_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_down_top_d_reinforced"
+			]
+		},
+		"bubble_column_inner_a_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_inner_a_reinforced"
+			]
+		},
+		"bubble_column_inner_b_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_inner_b_reinforced"
+			]
+		},
+		"bubble_column_outer_a_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_outer_a_reinforced"
+			]
+		},
+		"bubble_column_outer_b_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_outer_b_reinforced"
+			]
+		},
+		"bubble_column_outer_c_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_outer_c_reinforced"
+			]
+		},
+		"bubble_column_outer_d_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_outer_d_reinforced"
+			]
+		},
+		"bubble_column_outer_e_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_outer_e_reinforced"
+			]
+		},
+		"bubble_column_outer_f_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_outer_f_reinforced"
+			]
+		},
+		"bubble_column_outer_g_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_outer_g_reinforced"
+			]
+		},
+		"bubble_column_outer_h_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_outer_h_reinforced"
+			]
+		},
+		"bubble_column_up_top_a_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_up_top_a_reinforced"
+			]
+		},
+		"bubble_column_up_top_b_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_up_top_b_reinforced"
+			]
+		},
+		"bubble_column_up_top_c_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_up_top_c_reinforced"
+			]
+		},
+		"bubble_column_up_top_d_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/bubble_column_up_top_d_reinforced"
+			]
+		},
+		"budding_amethyst_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/budding_amethyst_reinforced"
+			]
+		},
+		"build_allow_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/build_allow_reinforced"
+			]
+		},
+		"build_deny_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/build_deny_reinforced"
+			]
+		},
+		"cactus_bottom.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cactus_bottom.tga_reinforced"
+			]
+		},
+		"cactus_side.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cactus_side.tga_reinforced"
+			]
+		},
+		"cactus_top.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cactus_top.tga_reinforced"
+			]
+		},
+		"cake_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cake_bottom_reinforced"
+			]
+		},
+		"cake_inner_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cake_inner_reinforced"
+			]
+		},
+		"cake_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cake_side_reinforced"
+			]
+		},
+		"cake_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cake_top_reinforced"
+			]
+		},
+		"calcite_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/calcite_reinforced"
+			]
+		},
+		"camera_back_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/camera_back_reinforced"
+			]
+		},
+		"camera_front_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/camera_front_reinforced"
+			]
+		},
+		"camera_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/camera_side_reinforced"
+			]
+		},
+		"camera_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/camera_top_reinforced"
+			]
+		},
+		"campfire_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/campfire_reinforced"
+			]
+		},
+		"campfire_log_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/campfire_log_reinforced"
+			]
+		},
+		"campfire_log_lit_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/campfire_log_lit_reinforced"
+			]
+		},
+		"carried_waterlily_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/carried_waterlily_reinforced"
+			]
+		},
+		"carrots_stage_0_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/carrots_stage_0_reinforced"
+			]
+		},
+		"carrots_stage_1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/carrots_stage_1_reinforced"
+			]
+		},
+		"carrots_stage_2_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/carrots_stage_2_reinforced"
+			]
+		},
+		"carrots_stage_3_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/carrots_stage_3_reinforced"
+			]
+		},
+		"cartography_table_side1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cartography_table_side1_reinforced"
+			]
+		},
+		"cartography_table_side2_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cartography_table_side2_reinforced"
+			]
+		},
+		"cartography_table_side3_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cartography_table_side3_reinforced"
+			]
+		},
+		"cartography_table_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cartography_table_top_reinforced"
+			]
+		},
+		"cauldron_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cauldron_bottom_reinforced"
+			]
+		},
+		"cauldron_inner_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cauldron_inner_reinforced"
+			]
+		},
+		"cauldron_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cauldron_side_reinforced"
+			]
+		},
+		"cauldron_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cauldron_top_reinforced"
+			]
+		},
+		"cauldron_water_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cauldron_water_reinforced"
+			]
+		},
+		"cauldron_water_placeholder_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cauldron_water_placeholder_reinforced"
+			]
+		},
+		"cave_vines_body_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cave_vines_body_reinforced"
+			]
+		},
+		"cave_vines_body_berries_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cave_vines_body_berries_reinforced"
+			]
+		},
+		"cave_vines_head_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cave_vines_head_reinforced"
+			]
+		},
+		"cave_vines_head_berries_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cave_vines_head_berries_reinforced"
+			]
+		},
+		"chain1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chain1_reinforced"
+			]
+		},
+		"chain2_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chain2_reinforced"
+			]
+		},
+		"chain_command_block_back_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chain_command_block_back_reinforced"
+			]
+		},
+		"chain_command_block_back_mipmap_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chain_command_block_back_mipmap_reinforced"
+			]
+		},
+		"chain_command_block_conditional_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chain_command_block_conditional_reinforced"
+			]
+		},
+		"chain_command_block_conditional_mipmap_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chain_command_block_conditional_mipmap_reinforced"
+			]
+		},
+		"chain_command_block_front_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chain_command_block_front_reinforced"
+			]
+		},
+		"chain_command_block_front_mipmap_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chain_command_block_front_mipmap_reinforced"
+			]
+		},
+		"chain_command_block_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chain_command_block_side_reinforced"
+			]
+		},
+		"chain_command_block_side_mipmap_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chain_command_block_side_mipmap_reinforced"
+			]
+		},
+		"chest_front_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chest_front_reinforced"
+			]
+		},
+		"chest_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chest_side_reinforced"
+			]
+		},
+		"chest_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chest_top_reinforced"
+			]
+		},
+		"chiseled_nether_bricks_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chiseled_nether_bricks_reinforced"
+			]
+		},
+		"chiseled_polished_blackstone_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chiseled_polished_blackstone_reinforced"
+			]
+		},
+		"chorus_flower_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chorus_flower_reinforced"
+			]
+		},
+		"chorus_flower_dead_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chorus_flower_dead_reinforced"
+			]
+		},
+		"chorus_plant_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/chorus_plant_reinforced"
+			]
+		},
+		"clay_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/clay_reinforced"
+			]
+		},
+		"coal_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coal_block_reinforced"
+			]
+		},
+		"coal_ore_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coal_ore_reinforced"
+			]
+		},
+		"coarse_dirt_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coarse_dirt_reinforced"
+			]
+		},
+		"cobblestone_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cobblestone_reinforced"
+			]
+		},
+		"cobblestone_mossy_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cobblestone_mossy_reinforced"
+			]
+		},
+		"cocoa_stage_0_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cocoa_stage_0_reinforced"
+			]
+		},
+		"cocoa_stage_1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cocoa_stage_1_reinforced"
+			]
+		},
+		"cocoa_stage_2_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cocoa_stage_2_reinforced"
+			]
+		},
+		"command_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/command_block_reinforced"
+			]
+		},
+		"command_block_back_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/command_block_back_reinforced"
+			]
+		},
+		"command_block_back_mipmap_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/command_block_back_mipmap_reinforced"
+			]
+		},
+		"command_block_conditional_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/command_block_conditional_reinforced"
+			]
+		},
+		"command_block_conditional_mipmap_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/command_block_conditional_mipmap_reinforced"
+			]
+		},
+		"command_block_front_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/command_block_front_reinforced"
+			]
+		},
+		"command_block_front_mipmap_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/command_block_front_mipmap_reinforced"
+			]
+		},
+		"command_block_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/command_block_side_reinforced"
+			]
+		},
+		"command_block_side_mipmap_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/command_block_side_mipmap_reinforced"
+			]
+		},
+		"comparator_off_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/comparator_off_reinforced"
+			]
+		},
+		"comparator_on_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/comparator_on_reinforced"
+			]
+		},
+		"compost_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/compost_reinforced"
+			]
+		},
+		"composter_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/composter_bottom_reinforced"
+			]
+		},
+		"composter_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/composter_side_reinforced"
+			]
+		},
+		"composter_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/composter_top_reinforced"
+			]
+		},
+		"compost_ready_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/compost_ready_reinforced"
+			]
+		},
+		"concrete_black_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_black_reinforced"
+			]
+		},
+		"concrete_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_blue_reinforced"
+			]
+		},
+		"concrete_brown_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_brown_reinforced"
+			]
+		},
+		"concrete_cyan_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_cyan_reinforced"
+			]
+		},
+		"concrete_gray_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_gray_reinforced"
+			]
+		},
+		"concrete_green_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_green_reinforced"
+			]
+		},
+		"concrete_light_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_light_blue_reinforced"
+			]
+		},
+		"concrete_lime_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_lime_reinforced"
+			]
+		},
+		"concrete_magenta_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_magenta_reinforced"
+			]
+		},
+		"concrete_orange_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_orange_reinforced"
+			]
+		},
+		"concrete_pink_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_pink_reinforced"
+			]
+		},
+		"concrete_powder_black_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_powder_black_reinforced"
+			]
+		},
+		"concrete_powder_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_powder_blue_reinforced"
+			]
+		},
+		"concrete_powder_brown_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_powder_brown_reinforced"
+			]
+		},
+		"concrete_powder_cyan_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_powder_cyan_reinforced"
+			]
+		},
+		"concrete_powder_gray_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_powder_gray_reinforced"
+			]
+		},
+		"concrete_powder_green_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_powder_green_reinforced"
+			]
+		},
+		"concrete_powder_light_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_powder_light_blue_reinforced"
+			]
+		},
+		"concrete_powder_lime_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_powder_lime_reinforced"
+			]
+		},
+		"concrete_powder_magenta_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_powder_magenta_reinforced"
+			]
+		},
+		"concrete_powder_orange_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_powder_orange_reinforced"
+			]
+		},
+		"concrete_powder_pink_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_powder_pink_reinforced"
+			]
+		},
+		"concrete_powder_purple_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_powder_purple_reinforced"
+			]
+		},
+		"concrete_powder_red_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_powder_red_reinforced"
+			]
+		},
+		"concrete_powder_silver_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_powder_silver_reinforced"
+			]
+		},
+		"concrete_powder_white_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_powder_white_reinforced"
+			]
+		},
+		"concrete_powder_yellow_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_powder_yellow_reinforced"
+			]
+		},
+		"concrete_purple_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_purple_reinforced"
+			]
+		},
+		"concrete_red_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_red_reinforced"
+			]
+		},
+		"concrete_silver_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_silver_reinforced"
+			]
+		},
+		"concrete_white_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_white_reinforced"
+			]
+		},
+		"concrete_yellow_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/concrete_yellow_reinforced"
+			]
+		},
+		"conduit_base_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/conduit_base_reinforced"
+			]
+		},
+		"conduit_cage_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/conduit_cage_reinforced"
+			]
+		},
+		"conduit_closed_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/conduit_closed_reinforced"
+			]
+		},
+		"conduit_open_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/conduit_open_reinforced"
+			]
+		},
+		"conduit_wind_horizontal_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/conduit_wind_horizontal_reinforced"
+			]
+		},
+		"conduit_wind_vertical_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/conduit_wind_vertical_reinforced"
+			]
+		},
+		"copper_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/copper_block_reinforced"
+			]
+		},
+		"copper_ore_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/copper_ore_reinforced"
+			]
+		},
+		"coral_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_blue_reinforced"
+			]
+		},
+		"coral_blue_dead_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_blue_dead_reinforced"
+			]
+		},
+		"coral_fan_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_fan_blue_reinforced"
+			]
+		},
+		"coral_fan_blue_dead_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_fan_blue_dead_reinforced"
+			]
+		},
+		"coral_fan_pink_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_fan_pink_reinforced"
+			]
+		},
+		"coral_fan_pink_dead_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_fan_pink_dead_reinforced"
+			]
+		},
+		"coral_fan_purple_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_fan_purple_reinforced"
+			]
+		},
+		"coral_fan_purple_dead_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_fan_purple_dead_reinforced"
+			]
+		},
+		"coral_fan_red_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_fan_red_reinforced"
+			]
+		},
+		"coral_fan_red_dead_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_fan_red_dead_reinforced"
+			]
+		},
+		"coral_fan_yellow_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_fan_yellow_reinforced"
+			]
+		},
+		"coral_fan_yellow_dead_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_fan_yellow_dead_reinforced"
+			]
+		},
+		"coral_pink_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_pink_reinforced"
+			]
+		},
+		"coral_pink_dead_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_pink_dead_reinforced"
+			]
+		},
+		"coral_plant_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_plant_blue_reinforced"
+			]
+		},
+		"coral_plant_blue_dead_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_plant_blue_dead_reinforced"
+			]
+		},
+		"coral_plant_pink_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_plant_pink_reinforced"
+			]
+		},
+		"coral_plant_pink_dead_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_plant_pink_dead_reinforced"
+			]
+		},
+		"coral_plant_purple_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_plant_purple_reinforced"
+			]
+		},
+		"coral_plant_purple_dead_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_plant_purple_dead_reinforced"
+			]
+		},
+		"coral_plant_red_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_plant_red_reinforced"
+			]
+		},
+		"coral_plant_red_dead_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_plant_red_dead_reinforced"
+			]
+		},
+		"coral_plant_yellow_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_plant_yellow_reinforced"
+			]
+		},
+		"coral_plant_yellow_dead_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_plant_yellow_dead_reinforced"
+			]
+		},
+		"coral_purple_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_purple_reinforced"
+			]
+		},
+		"coral_purple_dead_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_purple_dead_reinforced"
+			]
+		},
+		"coral_red_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_red_reinforced"
+			]
+		},
+		"coral_red_dead_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_red_dead_reinforced"
+			]
+		},
+		"coral_yellow_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_yellow_reinforced"
+			]
+		},
+		"coral_yellow_dead_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/coral_yellow_dead_reinforced"
+			]
+		},
+		"cracked_nether_bricks_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cracked_nether_bricks_reinforced"
+			]
+		},
+		"cracked_polished_blackstone_bricks_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cracked_polished_blackstone_bricks_reinforced"
+			]
+		},
+		"crafting_table_front_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/crafting_table_front_reinforced"
+			]
+		},
+		"crafting_table_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/crafting_table_side_reinforced"
+			]
+		},
+		"crafting_table_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/crafting_table_top_reinforced"
+			]
+		},
+		"crimson_fungus_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/crimson_fungus_reinforced"
+			]
+		},
+		"crimson_nylium_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/crimson_nylium_side_reinforced"
+			]
+		},
+		"crimson_nylium_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/crimson_nylium_top_reinforced"
+			]
+		},
+		"crimson_roots_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/crimson_roots_reinforced"
+			]
+		},
+		"crimson_roots_pot_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/crimson_roots_pot_reinforced"
+			]
+		},
+		"crying_obsidian_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/crying_obsidian_reinforced"
+			]
+		},
+		"cut_copper_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/cut_copper_reinforced"
+			]
+		},
+		"dark_oak_trapdoor_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/dark_oak_trapdoor_reinforced"
+			]
+		},
+		"daylight_detector_inverted_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/daylight_detector_inverted_top_reinforced"
+			]
+		},
+		"daylight_detector_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/daylight_detector_side_reinforced"
+			]
+		},
+		"daylight_detector_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/daylight_detector_top_reinforced"
+			]
+		},
+		"deadbush_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/deadbush_reinforced"
+			]
+		},
+		"diamond_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/diamond_block_reinforced"
+			]
+		},
+		"diamond_ore_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/diamond_ore_reinforced"
+			]
+		},
+		"dirt_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/dirt_reinforced"
+			]
+		},
+		"dirt_podzol_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/dirt_podzol_side_reinforced"
+			]
+		},
+		"dirt_podzol_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/dirt_podzol_top_reinforced"
+			]
+		},
+		"dirt_with_roots_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/dirt_with_roots_reinforced"
+			]
+		},
+		"dispenser_front_horizontal_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/dispenser_front_horizontal_reinforced"
+			]
+		},
+		"dispenser_front_vertical_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/dispenser_front_vertical_reinforced"
+			]
+		},
+		"door_acacia_lower_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/door_acacia_lower_reinforced"
+			]
+		},
+		"door_acacia_upper_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/door_acacia_upper_reinforced"
+			]
+		},
+		"door_birch_lower_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/door_birch_lower_reinforced"
+			]
+		},
+		"door_birch_upper_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/door_birch_upper_reinforced"
+			]
+		},
+		"door_dark_oak_lower_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/door_dark_oak_lower_reinforced"
+			]
+		},
+		"door_dark_oak_upper_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/door_dark_oak_upper_reinforced"
+			]
+		},
+		"door_iron_lower_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/door_iron_lower_reinforced"
+			]
+		},
+		"door_iron_upper_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/door_iron_upper_reinforced"
+			]
+		},
+		"door_jungle_lower_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/door_jungle_lower_reinforced"
+			]
+		},
+		"door_jungle_upper_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/door_jungle_upper_reinforced"
+			]
+		},
+		"door_spruce_lower_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/door_spruce_lower_reinforced"
+			]
+		},
+		"door_spruce_upper_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/door_spruce_upper_reinforced"
+			]
+		},
+		"door_wood_lower_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/door_wood_lower_reinforced"
+			]
+		},
+		"door_wood_upper_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/door_wood_upper_reinforced"
+			]
+		},
+		"double_plant_fern_bottom.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/double_plant_fern_bottom.tga_reinforced"
+			]
+		},
+		"double_plant_fern_carried_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/double_plant_fern_carried_reinforced"
+			]
+		},
+		"double_plant_fern_top.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/double_plant_fern_top.tga_reinforced"
+			]
+		},
+		"double_plant_grass_bottom.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/double_plant_grass_bottom.tga_reinforced"
+			]
+		},
+		"double_plant_grass_carried_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/double_plant_grass_carried_reinforced"
+			]
+		},
+		"double_plant_grass_top.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/double_plant_grass_top.tga_reinforced"
+			]
+		},
+		"double_plant_paeonia_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/double_plant_paeonia_bottom_reinforced"
+			]
+		},
+		"double_plant_paeonia_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/double_plant_paeonia_top_reinforced"
+			]
+		},
+		"double_plant_rose_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/double_plant_rose_bottom_reinforced"
+			]
+		},
+		"double_plant_rose_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/double_plant_rose_top_reinforced"
+			]
+		},
+		"double_plant_sunflower_back_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/double_plant_sunflower_back_reinforced"
+			]
+		},
+		"double_plant_sunflower_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/double_plant_sunflower_bottom_reinforced"
+			]
+		},
+		"double_plant_sunflower_front_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/double_plant_sunflower_front_reinforced"
+			]
+		},
+		"double_plant_sunflower_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/double_plant_sunflower_top_reinforced"
+			]
+		},
+		"double_plant_syringa_bottom.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/double_plant_syringa_bottom.tga_reinforced"
+			]
+		},
+		"double_plant_syringa_top.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/double_plant_syringa_top.tga_reinforced"
+			]
+		},
+		"dragon_egg_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/dragon_egg_reinforced"
+			]
+		},
+		"dried_kelp_side_a_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/dried_kelp_side_a_reinforced"
+			]
+		},
+		"dried_kelp_side_b_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/dried_kelp_side_b_reinforced"
+			]
+		},
+		"dried_kelp_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/dried_kelp_top_reinforced"
+			]
+		},
+		"dripstone_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/dripstone_block_reinforced"
+			]
+		},
+		"dropper_front_horizontal_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/dropper_front_horizontal_reinforced"
+			]
+		},
+		"dropper_front_vertical_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/dropper_front_vertical_reinforced"
+			]
+		},
+		"emerald_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/emerald_block_reinforced"
+			]
+		},
+		"emerald_ore_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/emerald_ore_reinforced"
+			]
+		},
+		"enchanting_table_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/enchanting_table_bottom_reinforced"
+			]
+		},
+		"enchanting_table_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/enchanting_table_side_reinforced"
+			]
+		},
+		"enchanting_table_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/enchanting_table_top_reinforced"
+			]
+		},
+		"ender_chest_front_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/ender_chest_front_reinforced"
+			]
+		},
+		"ender_chest_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/ender_chest_side_reinforced"
+			]
+		},
+		"ender_chest_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/ender_chest_top_reinforced"
+			]
+		},
+		"endframe_eye_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/endframe_eye_reinforced"
+			]
+		},
+		"endframe_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/endframe_side_reinforced"
+			]
+		},
+		"endframe_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/endframe_top_reinforced"
+			]
+		},
+		"end_bricks_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/end_bricks_reinforced"
+			]
+		},
+		"end_gateway_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/end_gateway_reinforced"
+			]
+		},
+		"end_portal_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/end_portal_reinforced"
+			]
+		},
+		"end_rod_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/end_rod_reinforced"
+			]
+		},
+		"end_stone_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/end_stone_reinforced"
+			]
+		},
+		"exposed_copper_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/exposed_copper_reinforced"
+			]
+		},
+		"exposed_cut_copper_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/exposed_cut_copper_reinforced"
+			]
+		},
+		"farmland_dry_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/farmland_dry_reinforced"
+			]
+		},
+		"farmland_wet_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/farmland_wet_reinforced"
+			]
+		},
+		"fern.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/fern.tga_reinforced"
+			]
+		},
+		"fern_carried.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/fern_carried.tga_reinforced"
+			]
+		},
+		"fire_0_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/fire_0_reinforced"
+			]
+		},
+		"fire_0_placeholder_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/fire_0_placeholder_reinforced"
+			]
+		},
+		"fire_1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/fire_1_reinforced"
+			]
+		},
+		"fire_1_placeholder_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/fire_1_placeholder_reinforced"
+			]
+		},
+		"fletcher_table_side1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/fletcher_table_side1_reinforced"
+			]
+		},
+		"fletcher_table_side2_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/fletcher_table_side2_reinforced"
+			]
+		},
+		"fletcher_table_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/fletcher_table_top_reinforced"
+			]
+		},
+		"flowering_azalea_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flowering_azalea_side_reinforced"
+			]
+		},
+		"flowering_azalea_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flowering_azalea_top_reinforced"
+			]
+		},
+		"flower_allium_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flower_allium_reinforced"
+			]
+		},
+		"flower_blue_orchid_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flower_blue_orchid_reinforced"
+			]
+		},
+		"flower_cornflower_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flower_cornflower_reinforced"
+			]
+		},
+		"flower_dandelion_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flower_dandelion_reinforced"
+			]
+		},
+		"flower_houstonia_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flower_houstonia_reinforced"
+			]
+		},
+		"flower_lily_of_the_valley_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flower_lily_of_the_valley_reinforced"
+			]
+		},
+		"flower_oxeye_daisy_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flower_oxeye_daisy_reinforced"
+			]
+		},
+		"flower_paeonia_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flower_paeonia_reinforced"
+			]
+		},
+		"flower_pot_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flower_pot_reinforced"
+			]
+		},
+		"flower_rose_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flower_rose_reinforced"
+			]
+		},
+		"flower_rose_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flower_rose_blue_reinforced"
+			]
+		},
+		"flower_tulip_orange_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flower_tulip_orange_reinforced"
+			]
+		},
+		"flower_tulip_pink_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flower_tulip_pink_reinforced"
+			]
+		},
+		"flower_tulip_red_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flower_tulip_red_reinforced"
+			]
+		},
+		"flower_tulip_white_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flower_tulip_white_reinforced"
+			]
+		},
+		"flower_wither_rose_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/flower_wither_rose_reinforced"
+			]
+		},
+		"frosted_ice_0_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/frosted_ice_0_reinforced"
+			]
+		},
+		"frosted_ice_1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/frosted_ice_1_reinforced"
+			]
+		},
+		"frosted_ice_2_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/frosted_ice_2_reinforced"
+			]
+		},
+		"frosted_ice_3_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/frosted_ice_3_reinforced"
+			]
+		},
+		"furnace_front_off_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/furnace_front_off_reinforced"
+			]
+		},
+		"furnace_front_on_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/furnace_front_on_reinforced"
+			]
+		},
+		"furnace_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/furnace_side_reinforced"
+			]
+		},
+		"furnace_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/furnace_top_reinforced"
+			]
+		},
+		"gilded_blackstone_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/gilded_blackstone_reinforced"
+			]
+		},
+		"glass_pane_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_reinforced"
+			]
+		},
+		"glass_pane_top_black_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_black_reinforced"
+			]
+		},
+		"glass_pane_top_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_blue_reinforced"
+			]
+		},
+		"glass_pane_top_brown_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_brown_reinforced"
+			]
+		},
+		"glass_pane_top_cyan_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_cyan_reinforced"
+			]
+		},
+		"glass_pane_top_gray_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_gray_reinforced"
+			]
+		},
+		"glass_pane_top_green_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_green_reinforced"
+			]
+		},
+		"glass_pane_top_light_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_light_blue_reinforced"
+			]
+		},
+		"glass_pane_top_lime_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_lime_reinforced"
+			]
+		},
+		"glass_pane_top_magenta_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_magenta_reinforced"
+			]
+		},
+		"glass_pane_top_orange_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_orange_reinforced"
+			]
+		},
+		"glass_pane_top_pink_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_pink_reinforced"
+			]
+		},
+		"glass_pane_top_purple_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_purple_reinforced"
+			]
+		},
+		"glass_pane_top_red_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_red_reinforced"
+			]
+		},
+		"glass_pane_top_silver_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_silver_reinforced"
+			]
+		},
+		"glass_pane_top_white_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_white_reinforced"
+			]
+		},
+		"glass_pane_top_yellow_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glass_pane_top_yellow_reinforced"
+			]
+		},
+		"glazed_terracotta_black_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glazed_terracotta_black_reinforced"
+			]
+		},
+		"glazed_terracotta_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glazed_terracotta_blue_reinforced"
+			]
+		},
+		"glazed_terracotta_brown_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glazed_terracotta_brown_reinforced"
+			]
+		},
+		"glazed_terracotta_cyan_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glazed_terracotta_cyan_reinforced"
+			]
+		},
+		"glazed_terracotta_gray_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glazed_terracotta_gray_reinforced"
+			]
+		},
+		"glazed_terracotta_green_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glazed_terracotta_green_reinforced"
+			]
+		},
+		"glazed_terracotta_light_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glazed_terracotta_light_blue_reinforced"
+			]
+		},
+		"glazed_terracotta_lime_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glazed_terracotta_lime_reinforced"
+			]
+		},
+		"glazed_terracotta_magenta_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glazed_terracotta_magenta_reinforced"
+			]
+		},
+		"glazed_terracotta_orange_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glazed_terracotta_orange_reinforced"
+			]
+		},
+		"glazed_terracotta_pink_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glazed_terracotta_pink_reinforced"
+			]
+		},
+		"glazed_terracotta_purple_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glazed_terracotta_purple_reinforced"
+			]
+		},
+		"glazed_terracotta_red_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glazed_terracotta_red_reinforced"
+			]
+		},
+		"glazed_terracotta_silver_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glazed_terracotta_silver_reinforced"
+			]
+		},
+		"glazed_terracotta_white_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glazed_terracotta_white_reinforced"
+			]
+		},
+		"glazed_terracotta_yellow_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glazed_terracotta_yellow_reinforced"
+			]
+		},
+		"glowing_obsidian_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glowing_obsidian_reinforced"
+			]
+		},
+		"glowstone_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glowstone_reinforced"
+			]
+		},
+		"glow_item_frame_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glow_item_frame_reinforced"
+			]
+		},
+		"glow_lichen_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/glow_lichen_reinforced"
+			]
+		},
+		"gold_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/gold_block_reinforced"
+			]
+		},
+		"gold_ore_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/gold_ore_reinforced"
+			]
+		},
+		"grass_block_snow_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/grass_block_snow_reinforced"
+			]
+		},
+		"grass_carried_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/grass_carried_reinforced"
+			]
+		},
+		"grass_path_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/grass_path_side_reinforced"
+			]
+		},
+		"grass_path_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/grass_path_top_reinforced"
+			]
+		},
+		"grass_side.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/grass_side.tga_reinforced"
+			]
+		},
+		"grass_side_carried_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/grass_side_carried_reinforced"
+			]
+		},
+		"grass_side_snowed_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/grass_side_snowed_reinforced"
+			]
+		},
+		"grass_side_snowed.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/grass_side_snowed.tga_reinforced"
+			]
+		},
+		"grass_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/grass_top_reinforced"
+			]
+		},
+		"gravel_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/gravel_reinforced"
+			]
+		},
+		"grindstone_pivot.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/grindstone_pivot.tga_reinforced"
+			]
+		},
+		"grindstone_round.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/grindstone_round.tga_reinforced"
+			]
+		},
+		"grindstone_side.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/grindstone_side.tga_reinforced"
+			]
+		},
+		"hanging_roots_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hanging_roots_reinforced"
+			]
+		},
+		"hardened_clay_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_reinforced"
+			]
+		},
+		"hardened_clay_stained_black_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_stained_black_reinforced"
+			]
+		},
+		"hardened_clay_stained_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_stained_blue_reinforced"
+			]
+		},
+		"hardened_clay_stained_brown_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_stained_brown_reinforced"
+			]
+		},
+		"hardened_clay_stained_cyan_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_stained_cyan_reinforced"
+			]
+		},
+		"hardened_clay_stained_gray_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_stained_gray_reinforced"
+			]
+		},
+		"hardened_clay_stained_green_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_stained_green_reinforced"
+			]
+		},
+		"hardened_clay_stained_light_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_stained_light_blue_reinforced"
+			]
+		},
+		"hardened_clay_stained_lime_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_stained_lime_reinforced"
+			]
+		},
+		"hardened_clay_stained_magenta_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_stained_magenta_reinforced"
+			]
+		},
+		"hardened_clay_stained_orange_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_stained_orange_reinforced"
+			]
+		},
+		"hardened_clay_stained_pink_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_stained_pink_reinforced"
+			]
+		},
+		"hardened_clay_stained_purple_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_stained_purple_reinforced"
+			]
+		},
+		"hardened_clay_stained_red_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_stained_red_reinforced"
+			]
+		},
+		"hardened_clay_stained_silver_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_stained_silver_reinforced"
+			]
+		},
+		"hardened_clay_stained_white_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_stained_white_reinforced"
+			]
+		},
+		"hardened_clay_stained_yellow_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hardened_clay_stained_yellow_reinforced"
+			]
+		},
+		"hay_block_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hay_block_side_reinforced"
+			]
+		},
+		"hay_block_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hay_block_top_reinforced"
+			]
+		},
+		"honeycomb_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/honeycomb_reinforced"
+			]
+		},
+		"honey_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/honey_bottom_reinforced"
+			]
+		},
+		"honey_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/honey_side_reinforced"
+			]
+		},
+		"honey_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/honey_top_reinforced"
+			]
+		},
+		"hopper_inside_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hopper_inside_reinforced"
+			]
+		},
+		"hopper_outside_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hopper_outside_reinforced"
+			]
+		},
+		"hopper_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/hopper_top_reinforced"
+			]
+		},
+		"ice_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/ice_reinforced"
+			]
+		},
+		"ice_packed_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/ice_packed_reinforced"
+			]
+		},
+		"iron_bars_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/iron_bars_reinforced"
+			]
+		},
+		"iron_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/iron_block_reinforced"
+			]
+		},
+		"iron_ore_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/iron_ore_reinforced"
+			]
+		},
+		"iron_trapdoor_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/iron_trapdoor_reinforced"
+			]
+		},
+		"itemframe_background_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/itemframe_background_reinforced"
+			]
+		},
+		"jigsaw_back_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/jigsaw_back_reinforced"
+			]
+		},
+		"jigsaw_front_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/jigsaw_front_reinforced"
+			]
+		},
+		"jigsaw_lock_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/jigsaw_lock_reinforced"
+			]
+		},
+		"jigsaw_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/jigsaw_side_reinforced"
+			]
+		},
+		"jukebox_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/jukebox_side_reinforced"
+			]
+		},
+		"jukebox_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/jukebox_top_reinforced"
+			]
+		},
+		"jungle_trapdoor_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/jungle_trapdoor_reinforced"
+			]
+		},
+		"kelp_a.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/kelp_a.tga_reinforced"
+			]
+		},
+		"kelp_b.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/kelp_b.tga_reinforced"
+			]
+		},
+		"kelp_c.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/kelp_c.tga_reinforced"
+			]
+		},
+		"kelp_d.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/kelp_d.tga_reinforced"
+			]
+		},
+		"kelp_top.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/kelp_top.tga_reinforced"
+			]
+		},
+		"kelp_top_bulb.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/kelp_top_bulb.tga_reinforced"
+			]
+		},
+		"ladder_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/ladder_reinforced"
+			]
+		},
+		"lantern_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/lantern_reinforced"
+			]
+		},
+		"lapis_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/lapis_block_reinforced"
+			]
+		},
+		"lapis_ore_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/lapis_ore_reinforced"
+			]
+		},
+		"large_amethyst_bud_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/large_amethyst_bud_reinforced"
+			]
+		},
+		"lava_flow_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/lava_flow_reinforced"
+			]
+		},
+		"lava_placeholder_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/lava_placeholder_reinforced"
+			]
+		},
+		"lava_still_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/lava_still_reinforced"
+			]
+		},
+		"leaves_acacia.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_acacia.tga_reinforced"
+			]
+		},
+		"leaves_acacia_carried.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_acacia_carried.tga_reinforced"
+			]
+		},
+		"leaves_acacia_opaque_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_acacia_opaque_reinforced"
+			]
+		},
+		"leaves_big_oak.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_big_oak.tga_reinforced"
+			]
+		},
+		"leaves_big_oak_carried.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_big_oak_carried.tga_reinforced"
+			]
+		},
+		"leaves_big_oak_opaque_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_big_oak_opaque_reinforced"
+			]
+		},
+		"leaves_birch.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_birch.tga_reinforced"
+			]
+		},
+		"leaves_birch_carried.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_birch_carried.tga_reinforced"
+			]
+		},
+		"leaves_birch_opaque_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_birch_opaque_reinforced"
+			]
+		},
+		"leaves_jungle.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_jungle.tga_reinforced"
+			]
+		},
+		"leaves_jungle_carried.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_jungle_carried.tga_reinforced"
+			]
+		},
+		"leaves_jungle_opaque_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_jungle_opaque_reinforced"
+			]
+		},
+		"leaves_oak.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_oak.tga_reinforced"
+			]
+		},
+		"leaves_oak_carried.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_oak_carried.tga_reinforced"
+			]
+		},
+		"leaves_oak_opaque_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_oak_opaque_reinforced"
+			]
+		},
+		"leaves_spruce.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_spruce.tga_reinforced"
+			]
+		},
+		"leaves_spruce_carried.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_spruce_carried.tga_reinforced"
+			]
+		},
+		"leaves_spruce_opaque_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/leaves_spruce_opaque_reinforced"
+			]
+		},
+		"lectern_base_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/lectern_base_reinforced"
+			]
+		},
+		"lectern_front_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/lectern_front_reinforced"
+			]
+		},
+		"lectern_sides_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/lectern_sides_reinforced"
+			]
+		},
+		"lectern_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/lectern_top_reinforced"
+			]
+		},
+		"lever_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/lever_reinforced"
+			]
+		},
+		"lightning_rod_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/lightning_rod_reinforced"
+			]
+		},
+		"lodestone_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/lodestone_side_reinforced"
+			]
+		},
+		"lodestone_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/lodestone_top_reinforced"
+			]
+		},
+		"log_acacia_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/log_acacia_reinforced"
+			]
+		},
+		"log_acacia_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/log_acacia_top_reinforced"
+			]
+		},
+		"log_big_oak_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/log_big_oak_reinforced"
+			]
+		},
+		"log_big_oak_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/log_big_oak_top_reinforced"
+			]
+		},
+		"log_birch_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/log_birch_reinforced"
+			]
+		},
+		"log_birch_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/log_birch_top_reinforced"
+			]
+		},
+		"log_jungle_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/log_jungle_reinforced"
+			]
+		},
+		"log_jungle_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/log_jungle_top_reinforced"
+			]
+		},
+		"log_oak_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/log_oak_reinforced"
+			]
+		},
+		"log_oak_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/log_oak_top_reinforced"
+			]
+		},
+		"log_spruce_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/log_spruce_reinforced"
+			]
+		},
+		"log_spruce_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/log_spruce_top_reinforced"
+			]
+		},
+		"loom_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/loom_bottom_reinforced"
+			]
+		},
+		"loom_front_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/loom_front_reinforced"
+			]
+		},
+		"loom_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/loom_side_reinforced"
+			]
+		},
+		"loom_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/loom_top_reinforced"
+			]
+		},
+		"magma_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/magma_reinforced"
+			]
+		},
+		"medium_amethyst_bud_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/medium_amethyst_bud_reinforced"
+			]
+		},
+		"melon_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/melon_side_reinforced"
+			]
+		},
+		"melon_stem_connected_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/melon_stem_connected_reinforced"
+			]
+		},
+		"melon_stem_disconnected_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/melon_stem_disconnected_reinforced"
+			]
+		},
+		"melon_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/melon_top_reinforced"
+			]
+		},
+		"missing_tile_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/missing_tile_reinforced"
+			]
+		},
+		"mob_spawner_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/mob_spawner_reinforced"
+			]
+		},
+		"moss_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/moss_block_reinforced"
+			]
+		},
+		"mushroom_block_inside_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/mushroom_block_inside_reinforced"
+			]
+		},
+		"mushroom_block_skin_brown_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/mushroom_block_skin_brown_reinforced"
+			]
+		},
+		"mushroom_block_skin_red_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/mushroom_block_skin_red_reinforced"
+			]
+		},
+		"mushroom_block_skin_stem_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/mushroom_block_skin_stem_reinforced"
+			]
+		},
+		"mushroom_brown_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/mushroom_brown_reinforced"
+			]
+		},
+		"mushroom_red_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/mushroom_red_reinforced"
+			]
+		},
+		"mycelium_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/mycelium_side_reinforced"
+			]
+		},
+		"mycelium_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/mycelium_top_reinforced"
+			]
+		},
+		"netherite_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/netherite_block_reinforced"
+			]
+		},
+		"netherrack_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/netherrack_reinforced"
+			]
+		},
+		"nether_brick_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/nether_brick_reinforced"
+			]
+		},
+		"nether_gold_ore_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/nether_gold_ore_reinforced"
+			]
+		},
+		"nether_sprouts_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/nether_sprouts_reinforced"
+			]
+		},
+		"nether_wart_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/nether_wart_block_reinforced"
+			]
+		},
+		"nether_wart_stage_0_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/nether_wart_stage_0_reinforced"
+			]
+		},
+		"nether_wart_stage_1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/nether_wart_stage_1_reinforced"
+			]
+		},
+		"nether_wart_stage_2_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/nether_wart_stage_2_reinforced"
+			]
+		},
+		"noteblock_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/noteblock_reinforced"
+			]
+		},
+		"observer_back_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/observer_back_reinforced"
+			]
+		},
+		"observer_back_lit_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/observer_back_lit_reinforced"
+			]
+		},
+		"observer_front_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/observer_front_reinforced"
+			]
+		},
+		"observer_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/observer_side_reinforced"
+			]
+		},
+		"observer_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/observer_top_reinforced"
+			]
+		},
+		"obsidian_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/obsidian_reinforced"
+			]
+		},
+		"oxidized_copper_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/oxidized_copper_reinforced"
+			]
+		},
+		"oxidized_cut_copper_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/oxidized_cut_copper_reinforced"
+			]
+		},
+		"piston_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/piston_bottom_reinforced"
+			]
+		},
+		"piston_inner_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/piston_inner_reinforced"
+			]
+		},
+		"piston_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/piston_side_reinforced"
+			]
+		},
+		"piston_top_normal_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/piston_top_normal_reinforced"
+			]
+		},
+		"piston_top_sticky_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/piston_top_sticky_reinforced"
+			]
+		},
+		"planks_acacia_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/planks_acacia_reinforced"
+			]
+		},
+		"planks_big_oak_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/planks_big_oak_reinforced"
+			]
+		},
+		"planks_birch_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/planks_birch_reinforced"
+			]
+		},
+		"planks_jungle_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/planks_jungle_reinforced"
+			]
+		},
+		"planks_oak_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/planks_oak_reinforced"
+			]
+		},
+		"planks_spruce_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/planks_spruce_reinforced"
+			]
+		},
+		"pointed_dripstone_down_base_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/pointed_dripstone_down_base_reinforced"
+			]
+		},
+		"pointed_dripstone_down_frustum_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/pointed_dripstone_down_frustum_reinforced"
+			]
+		},
+		"pointed_dripstone_down_merge_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/pointed_dripstone_down_merge_reinforced"
+			]
+		},
+		"pointed_dripstone_down_middle_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/pointed_dripstone_down_middle_reinforced"
+			]
+		},
+		"pointed_dripstone_down_tip_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/pointed_dripstone_down_tip_reinforced"
+			]
+		},
+		"pointed_dripstone_up_base_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/pointed_dripstone_up_base_reinforced"
+			]
+		},
+		"pointed_dripstone_up_frustum_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/pointed_dripstone_up_frustum_reinforced"
+			]
+		},
+		"pointed_dripstone_up_merge_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/pointed_dripstone_up_merge_reinforced"
+			]
+		},
+		"pointed_dripstone_up_middle_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/pointed_dripstone_up_middle_reinforced"
+			]
+		},
+		"pointed_dripstone_up_tip_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/pointed_dripstone_up_tip_reinforced"
+			]
+		},
+		"polished_basalt_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/polished_basalt_side_reinforced"
+			]
+		},
+		"polished_basalt_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/polished_basalt_top_reinforced"
+			]
+		},
+		"polished_blackstone_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/polished_blackstone_reinforced"
+			]
+		},
+		"polished_blackstone_bricks_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/polished_blackstone_bricks_reinforced"
+			]
+		},
+		"portal_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/portal_reinforced"
+			]
+		},
+		"portal_placeholder_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/portal_placeholder_reinforced"
+			]
+		},
+		"potatoes_stage_0_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/potatoes_stage_0_reinforced"
+			]
+		},
+		"potatoes_stage_1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/potatoes_stage_1_reinforced"
+			]
+		},
+		"potatoes_stage_2_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/potatoes_stage_2_reinforced"
+			]
+		},
+		"potatoes_stage_3_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/potatoes_stage_3_reinforced"
+			]
+		},
+		"potted_azalea_bush_plant_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/potted_azalea_bush_plant_reinforced"
+			]
+		},
+		"potted_azalea_bush_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/potted_azalea_bush_side_reinforced"
+			]
+		},
+		"potted_azalea_bush_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/potted_azalea_bush_top_reinforced"
+			]
+		},
+		"potted_flowering_azalea_bush_plant_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/potted_flowering_azalea_bush_plant_reinforced"
+			]
+		},
+		"potted_flowering_azalea_bush_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/potted_flowering_azalea_bush_side_reinforced"
+			]
+		},
+		"potted_flowering_azalea_bush_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/potted_flowering_azalea_bush_top_reinforced"
+			]
+		},
+		"powder_snow_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/powder_snow_reinforced"
+			]
+		},
+		"prismarine_bricks_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/prismarine_bricks_reinforced"
+			]
+		},
+		"prismarine_dark_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/prismarine_dark_reinforced"
+			]
+		},
+		"prismarine_rough_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/prismarine_rough_reinforced"
+			]
+		},
+		"pumpkin_face_off_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/pumpkin_face_off_reinforced"
+			]
+		},
+		"pumpkin_face_on_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/pumpkin_face_on_reinforced"
+			]
+		},
+		"pumpkin_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/pumpkin_side_reinforced"
+			]
+		},
+		"pumpkin_stem_connected_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/pumpkin_stem_connected_reinforced"
+			]
+		},
+		"pumpkin_stem_disconnected_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/pumpkin_stem_disconnected_reinforced"
+			]
+		},
+		"pumpkin_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/pumpkin_top_reinforced"
+			]
+		},
+		"purpur_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/purpur_block_reinforced"
+			]
+		},
+		"purpur_pillar_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/purpur_pillar_reinforced"
+			]
+		},
+		"purpur_pillar_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/purpur_pillar_top_reinforced"
+			]
+		},
+		"quartz_block_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/quartz_block_bottom_reinforced"
+			]
+		},
+		"quartz_block_chiseled_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/quartz_block_chiseled_reinforced"
+			]
+		},
+		"quartz_block_chiseled_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/quartz_block_chiseled_top_reinforced"
+			]
+		},
+		"quartz_block_lines_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/quartz_block_lines_reinforced"
+			]
+		},
+		"quartz_block_lines_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/quartz_block_lines_top_reinforced"
+			]
+		},
+		"quartz_block_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/quartz_block_side_reinforced"
+			]
+		},
+		"quartz_block_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/quartz_block_top_reinforced"
+			]
+		},
+		"quartz_bricks_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/quartz_bricks_reinforced"
+			]
+		},
+		"quartz_ore_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/quartz_ore_reinforced"
+			]
+		},
+		"rail_activator_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/rail_activator_reinforced"
+			]
+		},
+		"rail_activator_powered_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/rail_activator_powered_reinforced"
+			]
+		},
+		"rail_detector_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/rail_detector_reinforced"
+			]
+		},
+		"rail_detector_powered_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/rail_detector_powered_reinforced"
+			]
+		},
+		"rail_golden_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/rail_golden_reinforced"
+			]
+		},
+		"rail_golden_powered_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/rail_golden_powered_reinforced"
+			]
+		},
+		"rail_normal_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/rail_normal_reinforced"
+			]
+		},
+		"rail_normal_turned_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/rail_normal_turned_reinforced"
+			]
+		},
+		"raw_copper_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/raw_copper_block_reinforced"
+			]
+		},
+		"raw_gold_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/raw_gold_block_reinforced"
+			]
+		},
+		"raw_iron_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/raw_iron_block_reinforced"
+			]
+		},
+		"reactor_core_stage_0_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/reactor_core_stage_0_reinforced"
+			]
+		},
+		"reactor_core_stage_1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/reactor_core_stage_1_reinforced"
+			]
+		},
+		"reactor_core_stage_2_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/reactor_core_stage_2_reinforced"
+			]
+		},
+		"redstone_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/redstone_block_reinforced"
+			]
+		},
+		"redstone_dust_cross_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/redstone_dust_cross_reinforced"
+			]
+		},
+		"redstone_dust_line_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/redstone_dust_line_reinforced"
+			]
+		},
+		"redstone_lamp_off_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/redstone_lamp_off_reinforced"
+			]
+		},
+		"redstone_lamp_on_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/redstone_lamp_on_reinforced"
+			]
+		},
+		"redstone_ore_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/redstone_ore_reinforced"
+			]
+		},
+		"redstone_torch_off_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/redstone_torch_off_reinforced"
+			]
+		},
+		"redstone_torch_on_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/redstone_torch_on_reinforced"
+			]
+		},
+		"red_nether_brick_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/red_nether_brick_reinforced"
+			]
+		},
+		"red_sand_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/red_sand_reinforced"
+			]
+		},
+		"red_sandstone_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/red_sandstone_bottom_reinforced"
+			]
+		},
+		"red_sandstone_carved_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/red_sandstone_carved_reinforced"
+			]
+		},
+		"red_sandstone_normal_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/red_sandstone_normal_reinforced"
+			]
+		},
+		"red_sandstone_smooth_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/red_sandstone_smooth_reinforced"
+			]
+		},
+		"red_sandstone_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/red_sandstone_top_reinforced"
+			]
+		},
+		"reeds.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/reeds.tga_reinforced"
+			]
+		},
+		"repeater_off_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/repeater_off_reinforced"
+			]
+		},
+		"repeater_on_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/repeater_on_reinforced"
+			]
+		},
+		"repeating_command_block_back_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/repeating_command_block_back_reinforced"
+			]
+		},
+		"repeating_command_block_back_mipmap_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/repeating_command_block_back_mipmap_reinforced"
+			]
+		},
+		"repeating_command_block_conditional_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/repeating_command_block_conditional_reinforced"
+			]
+		},
+		"repeating_command_block_conditional_mipmap_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/repeating_command_block_conditional_mipmap_reinforced"
+			]
+		},
+		"repeating_command_block_front_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/repeating_command_block_front_reinforced"
+			]
+		},
+		"repeating_command_block_front_mipmap_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/repeating_command_block_front_mipmap_reinforced"
+			]
+		},
+		"repeating_command_block_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/repeating_command_block_side_reinforced"
+			]
+		},
+		"repeating_command_block_side_mipmap_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/repeating_command_block_side_mipmap_reinforced"
+			]
+		},
+		"respawn_anchor_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/respawn_anchor_bottom_reinforced"
+			]
+		},
+		"respawn_anchor_side0_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/respawn_anchor_side0_reinforced"
+			]
+		},
+		"respawn_anchor_side1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/respawn_anchor_side1_reinforced"
+			]
+		},
+		"respawn_anchor_side2_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/respawn_anchor_side2_reinforced"
+			]
+		},
+		"respawn_anchor_side3_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/respawn_anchor_side3_reinforced"
+			]
+		},
+		"respawn_anchor_side4_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/respawn_anchor_side4_reinforced"
+			]
+		},
+		"respawn_anchor_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/respawn_anchor_top_reinforced"
+			]
+		},
+		"respawn_anchor_top_off_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/respawn_anchor_top_off_reinforced"
+			]
+		},
+		"sand_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sand_reinforced"
+			]
+		},
+		"sandstone_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sandstone_bottom_reinforced"
+			]
+		},
+		"sandstone_carved_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sandstone_carved_reinforced"
+			]
+		},
+		"sandstone_normal_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sandstone_normal_reinforced"
+			]
+		},
+		"sandstone_smooth_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sandstone_smooth_reinforced"
+			]
+		},
+		"sandstone_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sandstone_top_reinforced"
+			]
+		},
+		"sapling_acacia_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sapling_acacia_reinforced"
+			]
+		},
+		"sapling_birch_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sapling_birch_reinforced"
+			]
+		},
+		"sapling_jungle_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sapling_jungle_reinforced"
+			]
+		},
+		"sapling_oak_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sapling_oak_reinforced"
+			]
+		},
+		"sapling_roofed_oak_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sapling_roofed_oak_reinforced"
+			]
+		},
+		"sapling_spruce_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sapling_spruce_reinforced"
+			]
+		},
+		"scaffolding_bottom.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/scaffolding_bottom.tga_reinforced"
+			]
+		},
+		"scaffolding_side.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/scaffolding_side.tga_reinforced"
+			]
+		},
+		"scaffolding_top.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/scaffolding_top.tga_reinforced"
+			]
+		},
+		"seagrass_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/seagrass_reinforced"
+			]
+		},
+		"seagrass_carried_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/seagrass_carried_reinforced"
+			]
+		},
+		"seagrass_doubletall_bottom_a.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/seagrass_doubletall_bottom_a.tga_reinforced"
+			]
+		},
+		"seagrass_doubletall_bottom_b.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/seagrass_doubletall_bottom_b.tga_reinforced"
+			]
+		},
+		"seagrass_doubletall_top_a.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/seagrass_doubletall_top_a.tga_reinforced"
+			]
+		},
+		"seagrass_doubletall_top_b.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/seagrass_doubletall_top_b.tga_reinforced"
+			]
+		},
+		"sea_lantern_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sea_lantern_reinforced"
+			]
+		},
+		"sea_pickle_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sea_pickle_reinforced"
+			]
+		},
+		"shroomlight_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shroomlight_reinforced"
+			]
+		},
+		"shulker_top_black_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_black_reinforced"
+			]
+		},
+		"shulker_top_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_blue_reinforced"
+			]
+		},
+		"shulker_top_brown_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_brown_reinforced"
+			]
+		},
+		"shulker_top_cyan_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_cyan_reinforced"
+			]
+		},
+		"shulker_top_gray_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_gray_reinforced"
+			]
+		},
+		"shulker_top_green_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_green_reinforced"
+			]
+		},
+		"shulker_top_light_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_light_blue_reinforced"
+			]
+		},
+		"shulker_top_lime_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_lime_reinforced"
+			]
+		},
+		"shulker_top_magenta_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_magenta_reinforced"
+			]
+		},
+		"shulker_top_orange_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_orange_reinforced"
+			]
+		},
+		"shulker_top_pink_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_pink_reinforced"
+			]
+		},
+		"shulker_top_purple_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_purple_reinforced"
+			]
+		},
+		"shulker_top_red_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_red_reinforced"
+			]
+		},
+		"shulker_top_silver_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_silver_reinforced"
+			]
+		},
+		"shulker_top_undyed_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_undyed_reinforced"
+			]
+		},
+		"shulker_top_white_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_white_reinforced"
+			]
+		},
+		"shulker_top_yellow_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/shulker_top_yellow_reinforced"
+			]
+		},
+		"slime_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/slime_reinforced"
+			]
+		},
+		"small_amethyst_bud_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/small_amethyst_bud_reinforced"
+			]
+		},
+		"small_dripleaf_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/small_dripleaf_side_reinforced"
+			]
+		},
+		"small_dripleaf_stem_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/small_dripleaf_stem_bottom_reinforced"
+			]
+		},
+		"small_dripleaf_stem_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/small_dripleaf_stem_top_reinforced"
+			]
+		},
+		"small_dripleaf_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/small_dripleaf_top_reinforced"
+			]
+		},
+		"smithing_table_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/smithing_table_bottom_reinforced"
+			]
+		},
+		"smithing_table_front_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/smithing_table_front_reinforced"
+			]
+		},
+		"smithing_table_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/smithing_table_side_reinforced"
+			]
+		},
+		"smithing_table_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/smithing_table_top_reinforced"
+			]
+		},
+		"smoker_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/smoker_bottom_reinforced"
+			]
+		},
+		"smoker_front_off_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/smoker_front_off_reinforced"
+			]
+		},
+		"smoker_front_on_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/smoker_front_on_reinforced"
+			]
+		},
+		"smoker_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/smoker_side_reinforced"
+			]
+		},
+		"smoker_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/smoker_top_reinforced"
+			]
+		},
+		"smooth_basalt_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/smooth_basalt_reinforced"
+			]
+		},
+		"snow_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/snow_reinforced"
+			]
+		},
+		"soul_campfire_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/soul_campfire_reinforced"
+			]
+		},
+		"soul_campfire_log_lit_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/soul_campfire_log_lit_reinforced"
+			]
+		},
+		"soul_fire_0_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/soul_fire_0_reinforced"
+			]
+		},
+		"soul_fire_1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/soul_fire_1_reinforced"
+			]
+		},
+		"soul_lantern_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/soul_lantern_reinforced"
+			]
+		},
+		"soul_sand_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/soul_sand_reinforced"
+			]
+		},
+		"soul_soil_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/soul_soil_reinforced"
+			]
+		},
+		"soul_torch_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/soul_torch_reinforced"
+			]
+		},
+		"sponge_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sponge_reinforced"
+			]
+		},
+		"sponge_wet_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sponge_wet_reinforced"
+			]
+		},
+		"spore_blossom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/spore_blossom_reinforced"
+			]
+		},
+		"spore_blossom_base_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/spore_blossom_base_reinforced"
+			]
+		},
+		"spruce_trapdoor_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/spruce_trapdoor_reinforced"
+			]
+		},
+		"stone_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stone_reinforced"
+			]
+		},
+		"stonebrick_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stonebrick_reinforced"
+			]
+		},
+		"stonebrick_carved_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stonebrick_carved_reinforced"
+			]
+		},
+		"stonebrick_cracked_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stonebrick_cracked_reinforced"
+			]
+		},
+		"stonebrick_mossy_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stonebrick_mossy_reinforced"
+			]
+		},
+		"stonecutter2_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stonecutter2_bottom_reinforced"
+			]
+		},
+		"stonecutter2_saw.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stonecutter2_saw.tga_reinforced"
+			]
+		},
+		"stonecutter2_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stonecutter2_side_reinforced"
+			]
+		},
+		"stonecutter2_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stonecutter2_top_reinforced"
+			]
+		},
+		"stonecutter_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stonecutter_bottom_reinforced"
+			]
+		},
+		"stonecutter_other_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stonecutter_other_side_reinforced"
+			]
+		},
+		"stonecutter_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stonecutter_side_reinforced"
+			]
+		},
+		"stonecutter_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stonecutter_top_reinforced"
+			]
+		},
+		"stone_andesite_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stone_andesite_reinforced"
+			]
+		},
+		"stone_andesite_smooth_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stone_andesite_smooth_reinforced"
+			]
+		},
+		"stone_diorite_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stone_diorite_reinforced"
+			]
+		},
+		"stone_diorite_smooth_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stone_diorite_smooth_reinforced"
+			]
+		},
+		"stone_granite_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stone_granite_reinforced"
+			]
+		},
+		"stone_granite_smooth_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stone_granite_smooth_reinforced"
+			]
+		},
+		"stone_slab_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stone_slab_side_reinforced"
+			]
+		},
+		"stone_slab_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stone_slab_top_reinforced"
+			]
+		},
+		"stripped_acacia_log_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stripped_acacia_log_reinforced"
+			]
+		},
+		"stripped_acacia_log_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stripped_acacia_log_top_reinforced"
+			]
+		},
+		"stripped_birch_log_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stripped_birch_log_reinforced"
+			]
+		},
+		"stripped_birch_log_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stripped_birch_log_top_reinforced"
+			]
+		},
+		"stripped_dark_oak_log_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stripped_dark_oak_log_reinforced"
+			]
+		},
+		"stripped_dark_oak_log_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stripped_dark_oak_log_top_reinforced"
+			]
+		},
+		"stripped_jungle_log_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stripped_jungle_log_reinforced"
+			]
+		},
+		"stripped_jungle_log_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stripped_jungle_log_top_reinforced"
+			]
+		},
+		"stripped_oak_log_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stripped_oak_log_reinforced"
+			]
+		},
+		"stripped_oak_log_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stripped_oak_log_top_reinforced"
+			]
+		},
+		"stripped_spruce_log_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stripped_spruce_log_reinforced"
+			]
+		},
+		"stripped_spruce_log_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/stripped_spruce_log_top_reinforced"
+			]
+		},
+		"structure_air_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/structure_air_reinforced"
+			]
+		},
+		"structure_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/structure_block_reinforced"
+			]
+		},
+		"structure_block_corner_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/structure_block_corner_reinforced"
+			]
+		},
+		"structure_block_data_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/structure_block_data_reinforced"
+			]
+		},
+		"structure_block_export_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/structure_block_export_reinforced"
+			]
+		},
+		"structure_block_load_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/structure_block_load_reinforced"
+			]
+		},
+		"structure_block_save_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/structure_block_save_reinforced"
+			]
+		},
+		"structure_void_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/structure_void_reinforced"
+			]
+		},
+		"sweet_berry_bush_stage0_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sweet_berry_bush_stage0_reinforced"
+			]
+		},
+		"sweet_berry_bush_stage1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sweet_berry_bush_stage1_reinforced"
+			]
+		},
+		"sweet_berry_bush_stage2_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sweet_berry_bush_stage2_reinforced"
+			]
+		},
+		"sweet_berry_bush_stage3_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/sweet_berry_bush_stage3_reinforced"
+			]
+		},
+		"tallgrass_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/tallgrass_reinforced"
+			]
+		},
+		"tallgrass.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/tallgrass.tga_reinforced"
+			]
+		},
+		"tallgrass_carried.tga_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/tallgrass_carried.tga_reinforced"
+			]
+		},
+		"target_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/target_side_reinforced"
+			]
+		},
+		"target_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/target_top_reinforced"
+			]
+		},
+		"tinted_glass_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/tinted_glass_reinforced"
+			]
+		},
+		"tnt_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/tnt_bottom_reinforced"
+			]
+		},
+		"tnt_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/tnt_side_reinforced"
+			]
+		},
+		"tnt_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/tnt_top_reinforced"
+			]
+		},
+		"torch_on_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/torch_on_reinforced"
+			]
+		},
+		"trapdoor_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/trapdoor_reinforced"
+			]
+		},
+		"trapped_chest_front_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/trapped_chest_front_reinforced"
+			]
+		},
+		"trip_wire_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/trip_wire_reinforced"
+			]
+		},
+		"trip_wire_source_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/trip_wire_source_reinforced"
+			]
+		},
+		"tuff_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/tuff_reinforced"
+			]
+		},
+		"turtle_egg_not_cracked_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/turtle_egg_not_cracked_reinforced"
+			]
+		},
+		"turtle_egg_slightly_cracked_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/turtle_egg_slightly_cracked_reinforced"
+			]
+		},
+		"turtle_egg_very_cracked_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/turtle_egg_very_cracked_reinforced"
+			]
+		},
+		"twisting_vines_base_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/twisting_vines_base_reinforced"
+			]
+		},
+		"twisting_vines_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/twisting_vines_bottom_reinforced"
+			]
+		},
+		"vine_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/vine_reinforced"
+			]
+		},
+		"vine_carried_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/vine_carried_reinforced"
+			]
+		},
+		"warped_fungus_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/warped_fungus_reinforced"
+			]
+		},
+		"warped_nylium_side_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/warped_nylium_side_reinforced"
+			]
+		},
+		"warped_nylium_top_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/warped_nylium_top_reinforced"
+			]
+		},
+		"warped_roots_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/warped_roots_reinforced"
+			]
+		},
+		"warped_roots_pot_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/warped_roots_pot_reinforced"
+			]
+		},
+		"warped_wart_block_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/warped_wart_block_reinforced"
+			]
+		},
+		"waterlily_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/waterlily_reinforced"
+			]
+		},
+		"water_flow_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/water_flow_reinforced"
+			]
+		},
+		"water_flow_grey_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/water_flow_grey_reinforced"
+			]
+		},
+		"water_placeholder_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/water_placeholder_reinforced"
+			]
+		},
+		"water_still_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/water_still_reinforced"
+			]
+		},
+		"water_still_grey_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/water_still_grey_reinforced"
+			]
+		},
+		"weathered_copper_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/weathered_copper_reinforced"
+			]
+		},
+		"weathered_cut_copper_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/weathered_cut_copper_reinforced"
+			]
+		},
+		"web_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/web_reinforced"
+			]
+		},
+		"weeping_vines_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/weeping_vines_reinforced"
+			]
+		},
+		"weeping_vines_base_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/weeping_vines_base_reinforced"
+			]
+		},
+		"weeping_vines_bottom_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/weeping_vines_bottom_reinforced"
+			]
+		},
+		"weeping_vines_plant_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/weeping_vines_plant_reinforced"
+			]
+		},
+		"wheat_stage_0_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wheat_stage_0_reinforced"
+			]
+		},
+		"wheat_stage_1_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wheat_stage_1_reinforced"
+			]
+		},
+		"wheat_stage_2_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wheat_stage_2_reinforced"
+			]
+		},
+		"wheat_stage_3_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wheat_stage_3_reinforced"
+			]
+		},
+		"wheat_stage_4_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wheat_stage_4_reinforced"
+			]
+		},
+		"wheat_stage_5_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wheat_stage_5_reinforced"
+			]
+		},
+		"wheat_stage_6_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wheat_stage_6_reinforced"
+			]
+		},
+		"wheat_stage_7_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wheat_stage_7_reinforced"
+			]
+		},
+		"wool_colored_black_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wool_colored_black_reinforced"
+			]
+		},
+		"wool_colored_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wool_colored_blue_reinforced"
+			]
+		},
+		"wool_colored_brown_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wool_colored_brown_reinforced"
+			]
+		},
+		"wool_colored_cyan_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wool_colored_cyan_reinforced"
+			]
+		},
+		"wool_colored_gray_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wool_colored_gray_reinforced"
+			]
+		},
+		"wool_colored_green_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wool_colored_green_reinforced"
+			]
+		},
+		"wool_colored_light_blue_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wool_colored_light_blue_reinforced"
+			]
+		},
+		"wool_colored_lime_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wool_colored_lime_reinforced"
+			]
+		},
+		"wool_colored_magenta_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wool_colored_magenta_reinforced"
+			]
+		},
+		"wool_colored_orange_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wool_colored_orange_reinforced"
+			]
+		},
+		"wool_colored_pink_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wool_colored_pink_reinforced"
+			]
+		},
+		"wool_colored_purple_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wool_colored_purple_reinforced"
+			]
+		},
+		"wool_colored_red_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wool_colored_red_reinforced"
+			]
+		},
+		"wool_colored_silver_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wool_colored_silver_reinforced"
+			]
+		},
+		"wool_colored_white_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wool_colored_white_reinforced"
+			]
+		},
+		"wool_colored_yellow_reinforced": {
+			"textures": [
+				"belytra_assets/reinforced_blocks/wool_colored_yellow_reinforced"
+			]
+		}
+		
+	}
+}

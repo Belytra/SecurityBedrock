@@ -1,0 +1,45 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "scb:door_r",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/key_door"
+			},
+			"geometry": {
+				"default": "geometry.key_door"
+			},
+			"animations": {
+				"key_door_posing_0": "animation.key_door.posing_0",
+				"key_door_posing_1": "animation.key_door.posing_1",
+				"key_door_posing_2": "animation.key_door.posing_2",
+				"key_door_posing_3": "animation.key_door.posing_3"
+			},
+			"animation_controllers": [
+				{
+					"key_door_pose_0": "controller.animation.key_door.pose_0"
+				},
+				{
+					"key_door_pose_1": "controller.animation.key_door.pose_1"
+				},
+				{
+					"key_door_pose_2": "controller.animation.key_door.pose_2"
+				},
+				{
+					"key_door_pose_3": "controller.animation.key_door.pose_3"
+				}
+			],
+			"render_controllers": [
+				"controller.render.key_door"
+			],
+			"spawn_egg": {
+				"texture": "door_protected",
+				"texture_index": 0
+			}
+		}
+	}
+}

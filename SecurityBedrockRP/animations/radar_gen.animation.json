@@ -1,0 +1,45 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.radar_gen.stay": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": [-20, 0, 0],
+						"2.0": [-20, 360, 0]
+					}
+				}
+			}
+		},
+		"animation.radar_gen.placed": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.36,
+			"bones": {
+				"hed": {
+					"rotation": {
+						"0.12": [0, -180, 0],
+						"0.36": [0, 0, 0]
+					},
+					"scale": {
+						"0.12": [1, 0, 1],
+						"0.36": [1, 1, 1]
+					}
+				},
+				"base": {
+					"scale": {
+						"0.0": [0.1, 0.1, 0.1],
+						"0.12": [1, 1, 1]
+					}
+				},
+				"base_part": {
+					"scale": {
+						"0.0": [1, 0, 1],
+						"0.12": [1, 1, 1]
+					}
+				}
+			}
+		}
+	}
+}

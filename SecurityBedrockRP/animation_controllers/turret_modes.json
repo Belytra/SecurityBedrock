@@ -1,0 +1,21 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.turret_modes" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{ "state_1" : "query.variant == 1" }
+					]
+				},
+				"state_1" : {
+					"animations" : [ "action" ],
+					"transitions" : [
+						{ "default" : "!query.variant == 1" }
+					]
+				}
+			}
+		}
+	}
+}

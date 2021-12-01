@@ -1,0 +1,62 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.torreta.deactivate": {
+			"animation_length": 1.04,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.04": [0, -8, 0]
+					}
+				},
+				"head": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.04": [0, -14, 0]
+					}
+				}
+			}
+		},
+		"animation.torreta.off": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [0, -9, 0]
+				},
+				"head": {
+					"position": [0, -14, 0]
+				}
+			}
+		},
+		"animation.torreta.activate": {
+			"animation_length": 1.04,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": [0, -9, 0],
+						"1.04": [0, 0, 0]
+					}
+				},
+				"head": {
+					"position": {
+						"0.0": [0, -14, 0],
+						"1.04": [0, -1, 0]
+					}
+				}
+			}
+		},
+		"animation.turret.action":{
+			"animation_length": 2,
+			"bones": {
+				"body": {
+					"position": [0, "math.lerp(0, -8, query.anim_time )", 0]
+				},
+				"head": {
+					"position": [0, "math.lerp(0, -14, query.anim_time )", 0]
+				}
+			},
+			"loop": "hold_on_last_frame"
+		}
+	}
+}

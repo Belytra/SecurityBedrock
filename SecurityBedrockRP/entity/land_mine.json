@@ -1,0 +1,48 @@
+//bridge-file-version: #23
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "scb:land_mine",
+			"min_engine_version": "1.12.0",
+			"materials": {
+				"default": "chicken",
+				"legs": "chicken_legs"
+			},
+			"textures": {
+				"default": "textures/entity/mine",
+				"inactive": "textures/entity/mine_inactive"
+			},
+			"geometry": {
+				"default": "geometry.mine"
+			},
+			"animations": {
+				"move": "animation.blank",
+				"general": "animation.blank",
+				"look_at_target": "animation.blank",
+				"baby_transform": "animation.blank",
+				"exe": "controller.animation.blank"
+			},
+			"scripts": {
+				"animate": [
+					"general",
+					{
+						"move": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"exe"
+				]
+			},
+			"render_controllers": [
+				"controller.render.variant_land_mine"
+			],
+			"spawn_egg": {
+				"texture": "mine",
+				"texture_index": 0
+			}
+		}
+	}
+}

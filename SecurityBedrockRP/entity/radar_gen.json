@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "sbc:radar_gen",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "belytra_assets/entity/radar_gen"
+            },
+            "geometry": {
+                "default": "geometry.radar_gen"
+            },
+            "animations": {
+                "active": "animation.radar_gen.stay"
+            },
+            "scripts": {
+                "animate": [
+                    "active"
+                ]
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "spawn_egg": {
+                "base_color": "#288483",
+                "overlay_color": "#2B7135"
+            }
+        }
+    }
+}

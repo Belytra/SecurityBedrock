@@ -1,0 +1,24 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "sbc:incam_player",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "belytra_assets/entity/function_blocks/incam_player"
+            },
+            "geometry": {
+                "default": "geometry.incam_player"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "spawn_egg": {
+                "base_color": "#288483",
+                "overlay_color": "#2B7135"
+            }
+        }
+    }
+}

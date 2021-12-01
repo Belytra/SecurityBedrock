@@ -1,0 +1,65 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "sbc:turret",
+			"min_engine_version": "1.12.0",
+			"materials": {
+				"default": "chicken",
+				"legs": "chicken_legs"
+			},
+			"textures": {
+				"default": "belytra_assets/entity/torreta",
+				"cobblestone_skin": "belytra_assets/entity/torreta_cobblestone",
+				"dirt_skin": "belytra_assets/entity/torreta_dirt",
+				"oak_skin": "belytra_assets/entity/torreta_oak_log",
+				"minion": "belytra_assets/entity/turret_skins/minion",
+				"nissanuwu": "belytra_assets/entity/turret_skins/nissanuwu",
+				"magocristal": "belytra_assets/entity/turret_skins/magocristal",
+				"sand": "belytra_assets/entity/turret_skins/sand",
+				"amethyst": "belytra_assets/entity/turret_skins/amethyst"
+			},
+			"geometry": {
+				"default": "geometry.torreta.geo"
+			},
+			"animations": {
+				"move": "animation.chicken.move",
+				"general": "animation.chicken.general",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.chicken.baby_transform",
+				"close": "animation.torreta.deactivate",
+				"open": "animation.torreta.activate",
+				"animach": "controller.animation.torreta",
+				"closed": "animation.torreta.off",
+				"action": "animation.turret.action",
+				"modes_c": "controller.animation.turret_modes"
+			},
+			"scripts": {
+				"animate": [
+					"general",
+					{
+						"move": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					{
+						"close": "query.is_transforming"
+					},
+					{
+						"closed": "query.mark_variant == 1"
+					},
+					"modes_c"
+				]
+			},
+			"render_controllers": [
+				"controller.render.turret"
+			],
+			"spawn_egg": {
+				"texture": "turret",
+				"texture_index": 0
+			}
+		}
+	}
+}

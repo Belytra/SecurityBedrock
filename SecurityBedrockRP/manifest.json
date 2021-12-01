@@ -1,0 +1,39 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "§bel mejor addon de seguridad para tu minecraft",
+        "name": "§dSecurityBedrock 2.1 | Pammsitoh",
+        "uuid": "b0bba580-1d40-4143-a578-32db381c32db",
+        "min_engine_version": [
+            1,
+            16,
+            0
+        ],
+        "version": [
+            2,
+            2,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "37024d0e-b913-436b-a69b-08706759067f",
+            "version": [
+                2,
+                2,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "5a4d091d-d172-4ff6-a587-a799acdb836c",
+            "version": [
+                2,
+                2,
+                0
+            ]
+        }
+    ]
+}
