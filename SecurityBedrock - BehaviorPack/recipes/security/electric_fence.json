@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "scb:electric_fence"
+        },
+        "tags": [
+            "security_table"
+        ],
+        "pattern": [
+            "IBI",
+            "IRI",
+            "IBI"
+        ],
+        "key": {
+            "I":{
+                "item": "minecraft:iron_ingot"
+            },
+            "R":{
+                "item": "minecraft:redstone"
+            },
+            "B":{
+                "item": "sbc:battery"
+            }
+        },
+        "result": {
+            "item": "scb:electric_fence",
+            "count": 4
+        }
+    }
+}

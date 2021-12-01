@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sbc:monitor"
+        },
+        "tags": [
+            "security_table"
+        ],
+        "pattern": [
+            "III",
+            "IPI",
+            "IRI"
+        ],
+        "key": {
+            "I":{
+                "item": "minecraft:iron_ingot"
+            },
+            "P":{
+                "item": "minecraft:glass_pane"
+            },
+            "R":{
+                "item": "minecraft:redstone"
+            }
+        },
+        "result": {
+            "item": "sbc:monitor"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sbc:night_glasses",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "night_glasses"
+            },
+            "minecraft:icon": {
+                "texture": "night_glasses"
+            },
+            "minecraft:wearable": {
+                "dispensable": true,
+                "slot": "slot.armor.head"
+            },
+            "minecraft:armor": {
+                "protection": 1
+            },
+            "minecraft:durability": {
+                "damage_chance": {
+                    "max": 0,
+                    "min": 1
+                }
+            }
+        }
+    }
+}

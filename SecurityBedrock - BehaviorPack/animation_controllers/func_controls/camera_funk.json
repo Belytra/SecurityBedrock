@@ -1,0 +1,51 @@
+{
+    "format_version": "1.17.0",
+    "animation_controllers": {
+        "controller.animation.camera_funk": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "state_1": "query.has_rider"
+                        }
+                    ]
+                },
+                "state_1": {
+                    "on_entry": [
+                        "/effect @p invisibility 1 1 true",
+                        "/execute @s ~ ~ ~ detect ~ ~ ~ minecraft:air 0 kill @s"
+                    ],
+                    "transitions": [
+                        {
+                            "default":"(1.0)"
+                        }
+                    ]
+                }
+            }
+        },
+        "controller.animation.camera.owner_only_ride":{
+            "initial_state": "default",
+            "states": {
+                "default":{
+                    "transitions": [
+                        {
+                            "not_owner":"query.mark_variant == 5"
+                        }
+                    ]
+                },
+                "not_owner":{
+                    "on_entry": [
+                        "/ride @a[r=1] stop_riding",
+                        "@s sbc:innocent"
+                    ],
+                    "transitions": [
+                        {
+                            "default":"(1.0)"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

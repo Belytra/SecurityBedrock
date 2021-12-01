@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sbc:camouflage_kit"
+        },
+        "tags": [
+            "security_table"
+        ],
+        "pattern": [
+            "III",
+            "DSL",
+            "III"
+        ],
+        "key": {
+            "D":{
+                "item": "minecraft:dirt"
+            },
+            "S":{
+                "item": "minecraft:cobblestone"
+            },
+            "L":{
+                "item": "minecraft:log"
+            },
+            "I":{
+                "item": "minecraft:iron_nugget"
+            }
+        },
+        "result": {
+            "item": "sbc:camouflage_kit"
+        }
+    }
+}

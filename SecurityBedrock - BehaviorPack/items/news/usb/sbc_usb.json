@@ -1,0 +1,17 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sbc:sbc_usb",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "sbc_usb"
+            },
+            "minecraft:icon": {
+                "texture": "sbc_usb"
+            }
+        }
+    }
+}

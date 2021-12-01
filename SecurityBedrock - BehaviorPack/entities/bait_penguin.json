@@ -1,0 +1,54 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "sbc:bait_penguin",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "animations": {
+                "bait": "controller.animation.bait_penguin"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "bait": "query.has_rider"
+                    }
+                ]
+            }
+        },
+        "component_groups": {},
+        "components": {
+            "minecraft:physics": {},
+            "minecraft:movement.basic": {},
+            "minecraft:movement": {
+                "value": 0.1
+            },
+            "minecraft:navigation.walk": {},
+            "minecraft:can_climb": {},
+            "minecraft:jump.static": {},
+            "minecraft:rideable": {
+                "interact_text": "Enter",
+                "controlling_seat": 0,
+                "seat_count": 1,
+                "seats":[
+                    {
+                        "position": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                ],
+                "family_types": [
+                    "player"
+                ]
+            },
+            "minecraft:input_ground_controlled": {},
+            "minecraft:collision_box": {
+                "height": 1.5,
+                "width": 1
+            }
+        },
+        "events": {}
+    }
+}

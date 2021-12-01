@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sbc:laptop"
+        },
+        "tags": [
+            "security_table"
+        ],
+        "pattern": [
+            "RMR",
+            "BPB",
+            "PBP"
+        ],
+        "key": {
+            "M":{
+                "item": "sbc:monitor"
+            },
+            "P":{
+                "item": "minecraft:stone_pressure_plate"
+            },
+            "B":{
+                "item": "minecraft:stone_button"
+            },
+            "R":{
+                "item": "minecraft:redstone"
+            }
+        },
+        "result": {
+            "item": "sbc:laptop"
+        }
+    }
+}

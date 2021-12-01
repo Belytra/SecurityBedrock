@@ -1,0 +1,36 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "sbc:explosion_func",
+            "is_spawnable": false,
+            "is_summonable": true
+        },
+        "component_groups": {
+            "just_explode":{
+                "minecraft:explode": {
+                    "breaks_blocks": true,
+                    "causes_fire": false,
+                    "fuse_length": [
+                        0,
+                        0
+                    ],
+                    "fuse_lit": true,
+                    "power": 4
+                }
+            }
+        },
+        "components": {
+            "minecraft:physics": {}
+        },
+        "events": {
+            "minecraft:entity_spawned": {
+                "add": {
+                    "component_groups": [
+                        "just_explode"
+                    ]
+                }
+            }
+        }
+    }
+}

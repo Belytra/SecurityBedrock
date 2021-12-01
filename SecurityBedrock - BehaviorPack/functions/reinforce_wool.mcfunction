@@ -1,0 +1,16 @@
+fill ~ ~ ~ ~ ~ ~ scb:wool_white_reinforced 0 replace wool 0
+fill ~ ~ ~ ~ ~ ~ scb:wool_orange_reinforced 0 replace wool 1
+fill ~ ~ ~ ~ ~ ~ scb:wool_magenta_reinforced 0 replace wool 2
+fill ~ ~ ~ ~ ~ ~ scb:wool_light_blue_reinforced 0 replace wool 3
+fill ~ ~ ~ ~ ~ ~ scb:wool_yellow_reinforced 0 replace wool 4
+fill ~ ~ ~ ~ ~ ~ scb:wool_lime_reinforced 0 replace wool 5
+fill ~ ~ ~ ~ ~ ~ scb:wool_pink_reinforced 0 replace wool 6
+fill ~ ~ ~ ~ ~ ~ scb:wool_gray_reinforced 0 replace wool 7
+fill ~ ~ ~ ~ ~ ~ scb:wool_silver_reinforced 0 replace wool 8
+fill ~ ~ ~ ~ ~ ~ scb:wool_cyan_reinforced 0 replace wool 9
+fill ~ ~ ~ ~ ~ ~ scb:wool_purple_reinforced 0 replace wool 10
+fill ~ ~ ~ ~ ~ ~ scb:wool_blue_reinforced 0 replace wool 11
+fill ~ ~ ~ ~ ~ ~ scb:wool_brown_reinforced 0 replace wool 12
+fill ~ ~ ~ ~ ~ ~ scb:wool_green_reinforced 0 replace wool 13
+fill ~ ~ ~ ~ ~ ~ scb:wool_red_reinforced 0 replace wool 14
+fill ~ ~ ~ ~ ~ ~ scb:wool_black_reinforced 0 replace wool 15

@@ -1,0 +1,57 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "sbc:mine_connection",
+            "is_summonable": true,
+            "animations": {
+                "min": "controller.animation.mine_connection"
+            },
+            "scripts": {
+                "animate": [
+                    "min"
+                ]
+            }
+        },
+        "component_groups": {
+            "sbc:go_explosion":{
+                "minecraft:mark_variant": {
+                    "value": 1
+                }
+            },
+            "sbc:bye":{
+                "minecraft:instant_despawn": {}
+            }
+        },
+        "components": {
+            "minecraft:damage_sensor": {
+                "triggers":[
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:physics": {
+                "has_collision": false,
+                "has_gravity": false
+            }
+        },
+        "events": {
+            "sbc:go_explosion":{
+                "add": {
+                    "component_groups": [
+                        "sbc:go_explosion"
+                    ]
+                }
+            },
+            "sbc:bye":{
+                "add": {
+                    "component_groups": [
+                        "sbc:bye"
+                    ]
+                }
+            }
+        }
+    }
+}

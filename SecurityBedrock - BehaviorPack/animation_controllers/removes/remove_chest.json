@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.remove_chest": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "state_1": "query.skin_id == 5"
+                        }
+                    ]
+                },
+                "state_1": {
+                    "on_entry": [
+                        "/setblock ~ ~ ~ air 0 destroy",
+                        "/kill @s"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

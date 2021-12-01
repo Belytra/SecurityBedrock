@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sbc:bulletproof"
+        },
+        "tags": [
+            "security_table"
+        ],
+        "pattern": [
+            "W W",
+            "NWN",
+            "IWI"
+        ],
+        "key": {
+            "W":{
+                "item": "minecraft:wool"
+            },
+            "N":{
+                "item": "minecraft:netherite_ingot"
+            },
+            "I":{
+                "item": "minecraft:iron_ingot"
+            }
+        },
+        "result": {
+            "item": "sbc:bulletproof"
+        }
+    }
+}

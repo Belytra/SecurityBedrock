@@ -1,0 +1,23 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.mine_connection": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "state_1": "query.mark_variant == 1"
+                        }
+                    ]
+                },
+                "state_1": {
+                    "on_entry": [
+                        "/summon sbc:explosion_func ~ ~ ~",
+                        "@s sbc:bye"
+                    ]
+                }
+            }
+        }
+    }
+}

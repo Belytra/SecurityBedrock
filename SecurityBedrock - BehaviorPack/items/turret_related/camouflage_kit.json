@@ -1,0 +1,17 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sbc:camouflage_kit",
+            "category": "Items"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "camouflage_kit"
+            },
+            "minecraft:display_name": {
+                "value": "camouflage_kit"
+            }
+        }
+    }
+}

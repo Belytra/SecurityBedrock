@@ -1,0 +1,35 @@
+{
+    "format_version": "1.16.200",
+    "minecraft:block": {
+        "description": {
+            "identifier": "sbc:security_table",
+            "properties": {}
+        },
+        "components": {
+            "minecraft:destroy_time": 3,
+            "minecraft:geometry": "geometry.table",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "security_table"
+                }
+            },
+            "minecraft:block_light_absorption": 0,
+            "minecraft:display_name": "security_table",
+            
+            "minecraft:crafting_table": {
+                "custom_description": "Security Table",
+                "grid_size": 3,
+                "crafting_tags": [
+                    "security_table"
+                ]
+            }
+        },
+        "events": {
+            "minecraft:on_interact": {
+                "run_command": {
+                    "command": "playsound stable.place @a ~ ~ ~"
+                }
+            }
+        }
+    }
+}

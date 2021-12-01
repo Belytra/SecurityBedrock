@@ -1,0 +1,104 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "sbc:security_camera",
+            "properties": {
+                "sbc:directions":[0,1,2,3],
+                "sbc:conf":[0,1]
+            },
+            "register_to_creative_menu": true
+        },
+        "permutations":[
+            {
+                "condition": "query.block_property('sbc:directions') == 0",
+                "components": {
+                    "minecraft:rotation": [0,180,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 1",
+                "components": {
+                    "minecraft:rotation": [0,0,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 2",
+                "components": {
+                    "minecraft:rotation": [0,270,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 3",
+                "components": {
+                    "minecraft:rotation": [0,90,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:conf') == 1",
+                "components": {
+                    "minecraft:on_interact": {}
+                }
+            }
+        ],
+        "components": {
+            "minecraft:display_name": "camera",
+            "minecraft:destroy_time": 2,
+            "minecraft:geometry": "geometry.security_camera",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "security_camera",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:on_player_placing": {
+                "event": "sbc:placed"
+            },
+            "minecraft:pick_collision":{
+                "origin": [
+                    -4,
+                    3,
+                    3
+                ],
+                "size": [
+                    8,
+                    8,
+                    5
+                ]
+            },
+            "minecraft:entity_collision":{
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "minecraft:on_interact": {
+                "event": "sbc:set"   
+            },
+            "minecraft:block_light_absorption": 0
+        },
+        "events": {
+            "sbc:placed":{
+                "set_block_property": {
+                    "sbc:directions": "query.cardinal_facing_2d-2"
+                }
+            },
+            "sbc:set":{
+                "run_command": {
+                    "command": [
+                        "summon sbc:camera_sit ~ ~-0.5 ~"
+                    ]
+                },
+                "set_block_property": {
+                    "sbc:conf": "1"
+                }
+            }
+        }
+    }
+}

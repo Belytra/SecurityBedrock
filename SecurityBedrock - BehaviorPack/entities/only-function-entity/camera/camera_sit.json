@@ -1,0 +1,153 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "sbc:camera_sit",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "animations": {
+                "funk":"controller.animation.camera_funk",
+                "only":"controller.animation.camera.owner_only_ride"
+            },
+            "scripts": {
+                "animate": [
+                    "funk",
+                    "only"
+                ]
+            }
+        },
+        "component_groups": {
+            "sbc:despawn":{
+                "minecraft:instant_despawn": {
+                    "remove_child_entities": false
+                }
+            },
+            "sbc:tamed":{
+                "minecraft:is_tamed": {}
+            },
+            "sbc:impostor":{
+                "minecraft:mark_variant": {
+                    "value": 5
+                }
+            },
+            "sbc:innocent":{
+                "minecraft:mark_variant": {
+                    "value": 0
+                }
+            }
+        },
+        "components": {
+            "minecraft:physics": {
+                "has_collision": false,
+                "has_gravity": false
+            },
+            "minecraft:rideable": {
+                "seat_count": 1,
+                "seats":[
+                    {
+                        "position": [
+                            0,
+                            -0.5,
+                            0
+                        ]
+                    }
+                ],
+                "family_types": [
+                    "player"
+                ],
+                "crouching_skip_interact": false
+            },
+            "minecraft:collision_box": {
+                "height": 0.8,
+                "width": 0.8
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:tameable": {
+                "probability": 1,
+                "tame_items":[
+                    "sbc:padlock"
+                ]
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {
+                        "swing": true,
+                        "on_interact": {
+                            "filters": [
+                                {
+                                    "test":"has_equipment",
+                                    "domain": "hand",
+                                    "subject": "other",
+                                    "value": "sbc:block_remover"
+                                }
+                            ],
+                            "target": "self",
+                            "event": "to:foo"
+                        }
+                    }
+                ]
+            },
+            "minecraft:entity_sensor": {
+                "maximum_count": -1,
+                "minimum_count": 1,
+                "relative_range": true,
+                "require_all": false,
+                "sensor_range": 1,
+                "event": "sbc:impostor",
+                "event_filters": [
+                    {
+                        "all_of": [
+                            {
+                                "test":"is_owner",
+                                "subject": "other",
+                                "value": false
+                            },
+                            {
+                                "test":"is_family",
+                                "subject": "other",
+                                "value": "player"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "events": {
+            "sbc:despawn":{
+                "add": {
+                    "component_groups": [
+                        "sbc:despawn"
+                    ]
+                }
+            },
+            "sbc:tamed":{
+                "add": {
+                    "component_groups": [
+                        "sbc:tamed"
+                    ]
+                }
+            },
+            "sbc:impostor":{
+                "add": {
+                    "component_groups": [
+                        "sbc:impostor"
+                    ]
+                }
+            },
+            "sbc:innocent":{
+                "add": {
+                    "component_groups": [
+                        "sbc:innocent"
+                    ]
+                }
+            }
+        }
+    }
+}

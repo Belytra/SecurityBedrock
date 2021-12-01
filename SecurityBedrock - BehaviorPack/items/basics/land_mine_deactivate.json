@@ -1,0 +1,32 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sbc:land_mine_deactivate",
+            "category": "Equipment"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "land_mine_deactivate"
+            },
+            "minecraft:icon": {
+                "texture": "land_mine_deactivate"
+            },
+            "minecraft:on_use_on": {
+                "on_use_on": {
+                    "event": "sbc:deactivate"
+                }
+            }
+        },
+        "events": {
+            "sbc:deactivate":{
+                "run_command": {
+                    "command": [
+                        "fill ~ ~ ~ ~ ~ ~ sbc:land_mine_inactive 0 replace sbc:land_mine",
+                        "playsound mob.sheep.shear @a ~ ~ ~"
+                    ]
+                }
+            }
+        }
+    }
+}

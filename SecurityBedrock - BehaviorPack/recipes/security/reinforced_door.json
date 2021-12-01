@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sbc:reinforced_door"
+        },
+        "tags": [
+            "security_table"
+        ],
+        "pattern": [
+            "IIB",
+            "IIB",
+            "IIB"
+        ],
+        "key": {
+            "I":{
+                "item": "minecraft:iron_ingot"
+            },
+            "B":{
+                "item": "minecraft:iron_block"
+            }
+        },
+        "result": {
+            "item": "sbc:reinforced_door"
+        }
+    }
+}

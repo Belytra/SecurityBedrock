@@ -1,0 +1,75 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "sbc:log_land_mine"
+        },
+        "components": {
+            "minecraft:destroy_time": 3,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "log"
+                }
+            },
+            "minecraft:unit_cube": {},
+            "minecraft:block_light_absorption": 0,
+            "minecraft:display_name": "land_mine",
+            "minecraft:pick_collision": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
+            },
+            "minecraft:entity_collision": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    16
+                ]
+            },
+            "minecraft:unwalkable": true,
+            "minecraft:on_step_on": {
+                "event": "dot:webo",
+                "target": "self"
+            },
+            "minecraft:on_interact": {
+                "condition": "query.get_equipped_item_name('main_hand') == 'mine_remote'",
+                "event": "set:connection"
+            },
+            "minecraft:on_player_destroyed": {
+                "event": "dot:webo"
+            }
+        },
+        "events": {
+            "dot:queso": {
+                "run_command": {
+                    "command": "playsound random.click @a ~ ~ ~"
+                }
+            },
+            "dot:webo": {
+                "run_command": {
+                    "command": "summon sbc:explosion_func ~ ~1 ~"
+                }
+            },
+            "set:connection":{
+                "run_command": {
+                    "command": [
+                        "summon sbc:mine_connection ~ ~1 ~",
+                        "playsound utils.connect @a ~ ~ ~"
+                    ]
+                }
+            }
+        }
+    }
+}

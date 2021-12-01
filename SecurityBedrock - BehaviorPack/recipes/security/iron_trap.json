@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sbc:iron_trap"
+        },
+        "tags": [
+            "security_table"
+        ],
+        "pattern": [
+            "III",
+            "OIO",
+            "RPR"
+        ],
+        "key": {
+            "I":{
+                "item": "minecraft:iron_bars"
+            },
+            "R":{
+                "item": "minecraft:redstone"
+            },
+            "P":{
+                "item": "minecraft:gunpowder"
+            },
+            "O":{
+                "item": "scb:iron_block_reinforced"
+            }
+        },
+        "result": {
+            "item": "sbc:iron_trap"
+        }
+    }
+}

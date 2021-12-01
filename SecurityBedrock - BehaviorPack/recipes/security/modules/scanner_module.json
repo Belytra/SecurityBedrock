@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sbc:scanner_module"
+        },
+        "tags": [
+            "security_table"
+        ],
+        "pattern": [
+            " II",
+            "IOI",
+            "II "
+        ],
+        "key": {
+            "I":{
+                "item": "minecraft:iron_ingot"
+            },
+            "O":{
+                "item": "minecraft:observer"
+            }
+        },
+        "result": {
+            "item": "sbc:scanner_module"
+        }
+    }
+}

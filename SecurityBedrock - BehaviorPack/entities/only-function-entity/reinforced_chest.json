@@ -1,0 +1,102 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "sbc:re_chest_inv",
+            "is_summonable": true,
+            "animations": {
+                "remove": "controller.animation.remove_chest"
+            },
+            "scripts": {
+                "animate": [
+                    "remove"
+                ]
+            }
+        },
+        "component_groups": {
+            "sbc:tamed":{
+                "minecraft:is_tamed": {}
+            },
+            "sbc:remove":{
+                "minecraft:skin_id": {
+                    "value": 5
+                }
+            }
+        },
+        "components": {
+            "minecraft:interact": {
+                "interactions":[
+                    {
+                        "swing": true,
+                        "interact_text": "Remove",
+                        "on_interact":{
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test":"has_equipment",
+                                        "subject": "other",
+                                        "domain": "hand",
+                                        "value": "sbc:block_remover"
+                                    },
+                                    {
+                                        "test":"is_owner",
+                                        "subject": "other",
+                                        "value": true
+                                    }
+                                ]
+                            },
+                            "event": "sbc:remove"
+                        }
+                    }
+                ]
+            },
+            "minecraft:inventory": {
+                "container_type": "minecart_chest",
+                "inventory_size": 27,
+                "restrict_to_owner": true
+            },
+            "minecraft:physics": {
+                "has_collision": false,
+                "has_gravity": false
+            },
+            "minecraft:collision_box": {
+                "height": 0.95,
+                "width": 0.95
+            },
+            "minecraft:damage_sensor": {
+                "triggers":[
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:tameable": {
+                "probability": 1,
+                "tame_items":[
+                    "sbc:padlock"
+                ],
+                "tame_event": {
+                    "event": "sbc:tamed",
+                    "target": "self"
+                }
+            }
+        },
+        "events": {
+            "sbc:tamed": {
+                "add": {
+                    "component_groups": [
+                        "sbc:tamed"
+                    ]
+                }
+            },
+            "sbc:remove":{
+                "add": {
+                    "component_groups": [
+                        "sbc:remove"
+                    ]
+                }
+            }
+        }
+    }
+}

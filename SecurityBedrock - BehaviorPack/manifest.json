@@ -1,0 +1,54 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "§bel mejor addon de seguridad para tu minecraft",
+        "name": "§dSecurityBedrock 2.1 | Pammsitoh",
+        "uuid": "5a4d091d-d172-4ff6-a587-a799acdb836c",
+        "min_engine_version": [
+            1,
+            16,
+            0
+        ],
+        "version": [
+            2,
+            2,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "68ad5bc9-bba7-4661-b5c5-9937312b1cec",
+            "version": [
+                2,
+                2,
+                0
+            ]
+        },
+        {
+            "description": "Script that implements basic starter tests.",
+            "type": "javascript",
+            "uuid": "1A1B53FC-5653-4A75-91B7-9CDF027674AE",
+            "version": [0, 0, 1],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+            "version": [ 0, 1, 0 ]
+        },
+        {
+            "uuid": "6f4b6893-1bb6-42fd-b458-7fa3d0c89616",
+            "version": [ 0, 1, 0 ]
+        },
+        {
+            "version": [
+                2,
+                2,
+                0
+            ],
+            "uuid": "b0bba580-1d40-4143-a578-32db381c32db"
+        }
+    ]
+}

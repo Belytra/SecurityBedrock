@@ -1,0 +1,85 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "sbc:tablet_func",
+            "is_summonable": true,
+            "animations": {
+                "func": "controller.animation.tablet_run_command"
+            },
+            "scripts": {
+                "animate": [
+                    "func"
+                ]
+            }
+        },
+        "component_groups": {
+            "sbc:run_command":{
+                "minecraft:mark_variant": {
+                    "value": 7
+                }
+            },
+            "sbc:timeout":{
+                "minecraft:timer": {
+                    "time": 10,
+                    "time_down_event": {
+                        "event": "sbc:close",
+                        "target": "self"
+                    }
+                }
+            },
+            "sbc:close":{
+                "minecraft:instant_despawn": {
+                    "remove_child_entities": false
+                }
+            }
+        },
+        "components": {
+            "minecraft:physics": {
+                "has_collision": false,
+                "has_gravity": false
+            },
+            "minecraft:damage_sensor": {
+                "triggers":[
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:npc": {},
+            "minecraft:entity_sensor": {
+                "event": "sbc:wellcome",
+                "sensor_range": 1,
+                "event_filters":{
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "player"
+                }
+            }
+        },
+        "events": {
+            "sbc:wellcome": {
+                "add": {
+                    "component_groups": [
+                        "sbc:run_command"
+                    ]
+                }
+            },
+            "sbc:close":{
+                "add": {
+                    "component_groups": [
+                        "sbc:close"
+                    ]
+                }
+            },
+            "sbc:is_opened": {
+                "add": {
+                    "component_groups": [
+                        "sbc:timeout"
+                    ]
+                }
+            }
+        }
+    }
+}

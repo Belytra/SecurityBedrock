@@ -1,0 +1,43 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sbc:block_reinforcer",
+            "category": "Items"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "block_reinforcer"
+            },
+            "minecraft:icon": {
+                "texture": "block_reinforcer"
+            },
+            "minecraft:on_use_on": {
+                "on_use_on": {
+                    "event": "reinforce:re"
+                }
+            },
+            "minecraft:durability": {
+                "max_durability": 100,
+                "damage_chance": {
+                    "max": 1,
+                    "min": 1
+                }
+            }
+        },
+        "events": {
+            "reinforce:re":{
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "function reinforce",
+                                "playsound stable.place @a ~ ~ ~"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

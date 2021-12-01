@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sbc:land_mine"
+        },
+        "tags": [
+            "security_table"
+        ],
+        "pattern": [
+            " I ",
+            "IPI"
+        ],
+        "key": {
+            "I":{
+                "item": "minecraft:iron_ingot"
+            },
+            "P":{
+                "item": "minecraft:gunpowder"
+            }
+        },
+        "result": {
+            "item": "sbc:land_mine"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sbcbp:laptop",
+            "category": "Equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "laptop_block_placer"
+            },
+            "minecraft:block_placer": {
+                "block": "sbc:laptop"
+            },
+            "minecraft:display_name": {
+                "value": "laptop_block_placer"
+            }
+        }
+    }
+}

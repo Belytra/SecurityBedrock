@@ -1,0 +1,48 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "sbc:land_mine_inactive",
+            "register_to_creative_menu": true
+        },
+        "components": {
+            "minecraft:destroy_time": 3,
+            "minecraft:geometry": "geometry.mine",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "mine_deactivated"
+                }
+            },
+            "minecraft:block_light_absorption": 0,
+            "minecraft:display_name": "land_mine",
+            "minecraft:pick_collision": {
+                "origin": [
+                    -2,
+                    0,
+                    -2
+                ],
+                "size": [
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "minecraft:entity_collision": {
+                "origin": [
+                    -2,
+                    0,
+                    -2
+                ],
+                "size": [
+                    4,
+                    8,
+                    4
+                ]
+            },
+            "minecraft:unwalkable": true
+        },
+        "events": {
+            
+        }
+    }
+}

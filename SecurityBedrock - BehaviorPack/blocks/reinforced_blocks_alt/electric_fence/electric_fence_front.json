@@ -1,0 +1,112 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "scb:electric_fence",
+            "properties": {
+                "sbc:directions": [0,1,2,3]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('sbc:directions') == 0",
+                "components": {
+                    "minecraft:rotation": [0,180,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 1",
+                "components": {
+                    "minecraft:rotation": [0,0,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 2",
+                "components": {
+                    "minecraft:rotation": [0,270,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 3",
+                "components": {
+                    "minecraft:rotation": [0,90,0]
+                }
+            }
+        ],
+        "components": {
+            "minecraft:geometry": "geometry.electric_fence",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "electric_fence",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            },
+            "minecraft:pick_collision": {
+                "origin": [
+                    -8,
+                    0,
+                    -1
+                ],
+                "size": [
+                    16,
+                    16,
+                    2
+                ]
+            },
+            "minecraft:entity_collision": {
+                "origin": [
+                    -8,
+                    0,
+                    -1
+                ],
+                "size": [
+                    16,
+                    17,
+                    2
+                ]
+            },
+            "minecraft:block_light_absorption": 0,
+            "minecraft:on_player_placing": {
+                "event": "sbc:place"
+            },
+            "minecraft:preventsjumping": true,
+            "minecraft:on_step_on": {
+                "event": "scb:hurts",
+                "target": "self"
+            },
+            "minecraft:ticking": {
+                "looping": true,
+                "on_tick": {
+                    "event": "sbc:wow"
+                },
+                "range": [
+                    0,1
+                ]
+            }
+            
+        },
+        "events": {
+            "sbc:place": {
+                "set_block_property": {
+                    "sbc:directions": "query.cardinal_facing_2d-2"
+                }
+            },
+            "scb:hurts":{
+                "damage": {
+                    "amount": 1,
+                    "target": "self"
+                }
+            },
+            "sbc:wow":{
+                "run_command": {
+                    "command": [
+                        "effect @e[r=1] instant_damage 1 0 true",
+                        "execute @e[r=1] ~ ~ ~ playsound utils.taser @a ~ ~ ~"
+                    ]
+                }
+            }
+        }
+    }
+}

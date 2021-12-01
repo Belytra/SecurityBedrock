@@ -1,0 +1,56 @@
+{
+    "format_version": "1.17.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sbc:taser",
+            "category": "Items"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "taser"
+            },
+            "minecraft:shooter": {
+                "ammunition": [
+                    {
+                        "item": "sbc:battery",
+                        "search_inventory": true
+                    }
+                ],
+                "charge_on_draw": true,
+                "launch_power_scale": 1
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:weapon": {},
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "sbc:use"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "taser"
+            }
+        },
+        "events": {
+            "sbc:use":{
+                "sequence": [
+                    {
+                        "run_command":{
+                            "command": [
+                                "playsound utils.taser @a ~ ~ ~"
+                            ]
+                        }
+                    },
+                    {
+                        "shoot": {
+                            "projectile": "sbc:electricity",
+                            "launch_power": 5
+                        }
+                    },
+                    {
+                        "swing": {}
+                    }
+                ]
+            }
+        }
+    }
+}

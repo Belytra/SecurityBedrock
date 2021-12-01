@@ -1,0 +1,42 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "sbc:incam_player",
+            "is_spawnable": false,
+            "is_summonable": true
+        },
+        "component_groups": {
+            "sbc:despawn":{
+                "minecraft:instant_despawn": {
+                    "remove_child_entities": false
+                }
+            }
+        },
+        "components": {
+            "minecraft:physics": {},
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:fire_immune": {},
+            "minecraft:nameable": {
+                "allow_name_tag_renaming": false,
+                "always_show": true
+            }
+        },
+        "events": {
+            "sbc:despawn":{
+                "add": {
+                    "component_groups": [
+                        "sbc:despawn"
+                    ]
+                }
+            }
+        }
+    }
+}

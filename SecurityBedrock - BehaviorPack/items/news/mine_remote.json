@@ -1,0 +1,40 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sbc:mine_remote",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "mine_remote"
+            },
+            "minecraft:icon": {
+                "texture": "mine_remote"
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "sbc:used"
+                }
+            },
+            "minecraft:use_duration": 0
+        },
+        "events": {
+            "sbc:used":{
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "playsound utils.padlock @a ~ ~ ~",
+                                "event entity @e[type=sbc:mine_connection,r=64] sbc:go_explosion"
+                            ]
+                        }
+                    },
+                    {
+                        "swing": {}
+                    }
+                ]
+            }
+        }
+    }
+}

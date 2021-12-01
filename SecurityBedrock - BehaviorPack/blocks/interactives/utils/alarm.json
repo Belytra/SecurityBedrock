@@ -1,0 +1,46 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "sbc:alarm",
+            "properties": {}
+        },
+        "components": {
+            "minecraft:block_light_absorption": 0,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "alarm_block",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:geometry": "geometry.alarm",
+            "minecraft:destroy_time": 1000,
+            "minecraft:entity_collision": {
+                "origin": [
+                    -4,
+                    0,
+                    -4
+                ],
+                "size": [
+                    8,
+                    8,
+                    8
+                ]
+            },
+            "minecraft:pick_collision": {
+                "origin": [
+                    -4,
+                    0,
+                    -4
+                ],
+                "size": [
+                    8,
+                    8,
+                    8
+                ]
+            },
+            "minecraft:display_name": "danger_alarm"
+        },
+        "events": {}
+    }
+}

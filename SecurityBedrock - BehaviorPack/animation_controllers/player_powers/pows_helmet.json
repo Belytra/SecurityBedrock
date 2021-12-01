@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.pows": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "night_glasses": "query.variant == 1"
+                        }
+                    ]
+                },
+                "night_glasses": {
+                    "on_entry": [
+                        "/effect @s night_vision 11 1 true"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

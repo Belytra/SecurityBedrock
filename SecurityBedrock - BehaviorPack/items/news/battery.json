@@ -1,0 +1,21 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sbc:battery",
+            "category": "Equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "battery"
+            },
+            "minecraft:display_name": {
+                "value": "battery"
+            },
+            "minecraft:projectile": {
+                "projectile_entity": "sbc:electricity",
+                "minimum_critical_power": 1
+            }
+        }
+    }
+}"

@@ -1,0 +1,190 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "sbc:monitor",
+            "properties": {
+                "sbc:directions":[0,1,2,3],
+                "sbc:screens":[0,1,2,3,4,5,6,7,8,9]
+            }
+        },
+        "permutations":[
+            {
+                "condition": "query.block_property('sbc:directions') == 0",
+                "components": {
+                    "minecraft:rotation": [0,180,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 1",
+                "components": {
+                    "minecraft:rotation": [0,0,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 2",
+                "components": {
+                    "minecraft:rotation": [0,270,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 3",
+                "components": {
+                    "minecraft:rotation": [0,90,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:screens') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "monitor_off",
+                            "render_method": "opaque"
+                        }
+                    },
+                    "minecraft:on_interact": {
+                        "condition": "query.block_property('sbc:screens') == 0",
+                        "event": "sbc:success_data"   
+                    }
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:screens') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "monitor_success",
+                            "render_method": "opaque"
+                        }
+                    },
+                    "minecraft:on_interact": {
+                        "condition": "query.block_property('sbc:screens') == 1",
+                        "event": "sbc:alert_data"   
+                    }
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:screens') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "monitor_alert",
+                            "render_method": "opaque"
+                        }
+                    },
+                    "minecraft:on_interact": {
+                        "condition": "query.block_property('sbc:screens') == 2",
+                        "event": "sbc:tasbien_display"   
+                    }
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:screens') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "monitor_display_tasbien",
+                            "render_method": "opaque"
+                        }
+                    },
+                    "minecraft:on_interact": {
+                        "condition": "query.block_property('sbc:screens') == 3",
+                        "event": "sbc:niniclean_display"   
+                    }
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:screens') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "monitor_display_niniclean",
+                            "render_method": "opaque"
+                        }
+                    },
+                    "minecraft:on_interact": {
+                        "condition": "query.block_property('sbc:screens') == 4",
+                        "event": "sbc:default_data"   
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:display_name": "monitor",
+            "minecraft:destroy_time": 2,
+            "minecraft:geometry": "geometry.security_panel",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "monitor_off",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:on_player_placing": {
+                "event": "sbc:placed"
+            },
+            "minecraft:block_light_absorption": 0,
+            "minecraft:pick_collision":{
+                "origin": [
+                    -8,
+                    0,
+                    7
+                ],
+                "size": [
+                    16,
+                    16,
+                    1
+                ]
+            },
+            "minecraft:entity_collision":{
+                "origin": [
+                    -8,
+                    0,
+                    7
+                ],
+                "size": [
+                    16,
+                    16,
+                    1
+                ]
+            },
+            "minecraft:on_interact": {
+                "condition": "query.block_property('sbc:screens') == 0",
+                "event": "sbc:success_data"   
+            },
+            "minecraft:block_light_emission": 1
+        },
+        "events": {
+            "sbc:placed":{
+                "set_block_property": {
+                    "sbc:directions": "query.cardinal_facing_2d-2",
+                    "sbc:screens": 0
+                }
+            },
+            "sbc:success_data":{
+                "set_block_property": {
+                    "sbc:screens": 1
+                }
+            },
+            "sbc:default_data":{
+                "set_block_property": {
+                    "sbc:screens": 0
+                }
+            },
+            "sbc:alert_data":{
+                "set_block_property": {
+                    "sbc:screens": 2
+                }
+            },
+            "sbc:tasbien_display":{
+                "set_block_property": {
+                    "sbc:screens": 3
+                }
+            },
+            "sbc:niniclean_display":{
+                "set_block_property": {
+                    "sbc:screens": 4
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sbc:sbc_usb_data_chicken",
+            "category": "nothing"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "sbc_usb_data_chicken"
+            },
+            "minecraft:icon": {
+                "texture": "sbc_usb"
+            }
+        }
+    }
+}

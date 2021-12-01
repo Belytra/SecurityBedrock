@@ -1,0 +1,67 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.turret_modes" : {
+			"initial_state" : "only_monsters",
+			"states" : {
+                "only_monsters":{
+                    "on_entry": [
+                        "/title @p actionbar §d[MODE]: §bOnly §cMonsters",
+                        "/playsound utils.beepaction @a ~ ~ ~"
+                    ],
+                    "transitions": [
+                        {
+                            "only_players": "query.variant == 2"
+                        },
+                        {
+                            "closed": "query.variant == 1"
+                        },
+                        {
+                            "remove": "query.variant == 6"
+                        }
+                    ]
+                },
+                "only_players":{
+                    "on_entry": [
+                        "/title @p actionbar §d[MODE]: §bOnly §ePlayers",
+                        "/playsound utils.beepaction @a ~ ~ ~"
+                    ],
+                    "transitions": [
+                        {
+                            "only_monsters": "query.variant == 0"
+                        },
+                        {
+                            "closed": "query.variant == 1"
+                        },
+                        {
+                            "remove": "query.variant == 6"
+                        }
+                    ]
+                },
+                "closed":{
+                    "on_entry": [
+                        "/title @p actionbar §d[MODE]: §cOFF",
+                        "/playsound utils.beepaction @a ~ ~ ~"
+                    ],
+                    "transitions": [
+                        {
+                            "only_players": "query.variant == 2"
+                        },
+                        {
+                            "only_monsters": "query.variant == 0"
+                        },
+                        {
+                            "remove": "query.variant == 6"
+                        }
+                    ]
+                },
+                "remove":{
+                    "on_entry": [
+                        "/playsound utils.beepaction @a ~ ~ ~",
+                        "/kill @s"
+                    ]
+                }
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sbc:scanner_module",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "scanner_module"
+            },
+            "minecraft:display_name": {
+                "value": "scanner_module"
+            }
+        }
+    }
+}

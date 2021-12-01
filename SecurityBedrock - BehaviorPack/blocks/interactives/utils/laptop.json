@@ -1,0 +1,156 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "sbc:laptop",
+            "properties": {
+                "sbc:directions":[0,1,2,3],
+                "sbc:screens": [0,1,2,3,4,5,6,7,8,9]
+            }
+        },
+        "permutations":[
+            {
+                "condition": "query.block_property('sbc:directions') == 0",
+                "components": {
+                    "minecraft:rotation": [0,180,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 1",
+                "components": {
+                    "minecraft:rotation": [0,0,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 2",
+                "components": {
+                    "minecraft:rotation": [0,270,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 3",
+                "components": {
+                    "minecraft:rotation": [0,90,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:screens') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "laptop",
+                            "render_method": "alpha_test"
+                        }
+                    },
+                    "minecraft:on_interact": {
+                        "event": "sbc:chicken_data"
+                    }
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:screens') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "laptop_chicken",
+                            "render_method": "alpha_test"
+                        }
+                    },
+                    "minecraft:on_interact": {
+                        "event": "sbc:monster_data"
+                    }
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:screens') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "laptop_monster",
+                            "render_method": "alpha_test"
+                        }
+                    },
+                    "minecraft:on_interact": {
+                        "event": "sbc:default_data"
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:display_name": "laptop",
+            "minecraft:destroy_time": 2,
+            "minecraft:geometry": "geometry.laptop",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "laptop",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:on_player_placing": {
+                "event": "sbc:placed"
+            },
+            "minecraft:block_light_absorption": 0,
+            "minecraft:pick_collision":{
+                "origin": [
+                    -7,
+                    0,
+                    -8
+                ],
+                "size": [
+                    14,
+                    3,
+                    14
+                ]
+            },
+            "minecraft:entity_collision":{
+                "origin": [
+                    -7,
+                    0,
+                    -8
+                ],
+                "size": [
+                    14,
+                    1,
+                    14
+                ]
+            },
+            "minecraft:on_interact": {
+                "event": "sbc:chicken_data"
+            }
+        },
+        "events": {
+            "sbc:placed":{
+                "set_block_property": {
+                    "sbc:directions": "query.cardinal_facing_2d-2"
+                }
+            },
+            "sbc:default_data":{
+                "set_block_property": {
+                    "sbc:screens": 0
+                }                
+            },
+            "sbc:chicken_data":{
+                "set_block_property": {
+                    "sbc:screens": 1
+                },
+                "run_command": {
+                    "command": [
+                        "title @p actionbar §bAnimal Data",
+                        "playsound random.pop @a ~ ~ ~"
+                    ]
+                }
+            },
+            "sbc:monster_data":{
+                "set_block_property": {
+                    "sbc:screens": 2
+                },
+                "run_command": {
+                    "command": [
+                        "title @p actionbar §aMonster Data",
+                        "playsound random.pop @a ~ ~ ~"
+                    ]
+                }
+            }
+        }
+    }
+}

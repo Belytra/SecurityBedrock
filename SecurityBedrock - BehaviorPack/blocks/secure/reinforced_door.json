@@ -1,0 +1,166 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "sbc:reinforced_door",
+            "properties": {
+                "sbc:directions": [0,1,2,3],
+                "sbc:active": [0,1],
+                "sbc:scanner": [0,1]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('sbc:directions') == 0",
+                "components": {
+                    "minecraft:rotation": [0,180,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 1",
+                "components": {
+                    "minecraft:rotation": [0,0,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 2",
+                "components": {
+                    "minecraft:rotation": [0,270,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 3",
+                "components": {
+                    "minecraft:rotation": [0,90,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:active') == 1",
+                "components": {
+                    "minecraft:on_interact": {
+                        "condition": "query.get_equipped_item_name('main_hand') == 'scanner_module'",
+                        "event": "sbc:scanner_set"
+                    }
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:scanner') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "scanner_door",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:scanner') != 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "reinforced_door",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:destroy_time": 100000,
+            "minecraft:explosion_resistance": 100000,
+            "minecraft:material_instances": {
+                "*": {
+                    "render_method": "alpha_test",
+                    "texture": "reinforced_door"
+                }
+            },
+            "minecraft:geometry": "geometry.key_door",
+            "minecraft:on_player_placing": {
+                "event": "sbc:place"
+            },
+            "minecraft:block_light_absorption": 0,
+            "minecraft:pick_collision": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    2
+                ]
+            },
+            "minecraft:entity_collision": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    16,
+                    2
+                ]
+            },
+            "minecraft:immovable": true,
+            "minecraft:on_interact": {
+                "event": "sbc:activate"
+            },
+            "minecraft:on_step_on": {
+                "event": "sbc:open",
+                "condition": "query.has_any_family('function')"
+            }
+        },
+        "events": {
+            "sbc:place": {
+                "set_block_property": {
+                    "sbc:directions": "query.cardinal_facing_2d-2",
+                    "sbc:scanner": "0"
+                }
+            },
+            "sbc:activate":{
+                "run_command": {
+                    "command": [
+                        "summon sbc:only_door_task ~ ~0.7 ~"
+                    ]
+                },
+                "set_block_property": {
+                    "sbc:active": 1
+                }
+            },
+            "sbc:open":{
+                "set_block_property": {
+                    "sbc:directions": "query.block_property('sbc:directions') == 0 ? 3 : query.block_property('sbc:directions') == 1 ? 0 : query.block_property('sbc:directions') == 2 ? 1 : 2"
+                },
+                "run_command": {
+                    "command": [
+                        "playsound utils.door @a ~ ~ ~",
+                        "event entity @e[type=sbc:only_door_task,c=1,r=2] sbc:stoff",
+                        "tp @e[type=sbc:only_door_task,c=1,r=2] ~ ~1 ~"
+                    ]
+                }
+            },
+            "sbc:scanner_set":{
+                "sequence": [
+                    {
+                        "set_block_property": {
+                            "sbc:scanner": 1
+                        }
+                    },
+                    {  
+                        "decrement_stack": {}
+                    },
+                    {
+                        "run_command": {
+                            "command": [
+                                "event entity @e[type=sbc:only_door_task,r=3,c=1] sbc:set_scanner"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

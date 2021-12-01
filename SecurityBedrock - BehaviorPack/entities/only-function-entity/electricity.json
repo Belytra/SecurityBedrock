@@ -1,0 +1,55 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "sbc:electricity",
+            "is_summonable": true,
+            "animations": {
+                "lec": "controller.animation.electricity"
+            },
+            "scripts": {
+                "animate": [
+                    "lec"
+                ]
+            }
+        },
+        "component_groups": {
+            
+        },
+        "components": {
+            "minecraft:projectile": {
+                "on_hit": {
+                  "impact_damage": {
+                    "damage": 5,
+                    "knockback": true,
+                    "semi_random_diff_damage": true,
+                    "destroy_on_hit": true,
+                    "max_critical_damage": 10,
+                    "min_critical_damage": 9,
+                    "power_multiplier": 0.97
+                  },
+                  "remove_on_hit": {}
+                },
+                "hit_sound": "random.pop",
+                "power": 1.0,
+                "gravity": 0.1,
+                "uncertainty_base": 0,
+                "uncertainty_multiplier": 0,
+                "anchor": 1,
+                "should_bounce": true,
+                "offset": [ 0, -2, 0 ]
+            },
+            "minecraft:damage_sensor": {
+                "triggers":[
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            }
+        },
+        "events": {
+            
+        }
+    }
+}

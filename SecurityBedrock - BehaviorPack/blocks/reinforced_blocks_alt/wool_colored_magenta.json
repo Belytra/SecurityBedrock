@@ -1,0 +1,41 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "scb:wool_colored_magenta_reinforced",
+            "is_experimental": false,
+            "register_to_creative_menu": true
+        },
+        "components": {
+            "minecraft:destroy_time": 10000,
+            "minecraft:explosion_resistance": 10000,
+            "minecraft:on_interact": {
+                "condition": "query.get_equipped_item_name('main_hand') == 'block_remover'",
+                "event": "scb:destroy",
+                "target": "self"
+            },
+            "minecraft:map_color": "#573320",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "wool_colored_magenta_reinforced",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:unit_cube": {}
+        },
+        "events": {
+            "scb:destroy": {
+                "set_block": {
+                    "block_type": "minecraft:air"
+                },
+                "spawn_loot": {
+                    "table": ""
+                },
+                "play_sound": {
+                    "sound": "block.stonecutter.use",
+                    "target": "self"
+                }
+            }
+        }
+    }
+}

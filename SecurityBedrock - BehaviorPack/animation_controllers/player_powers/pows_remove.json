@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.pows_remove": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "night_glasses": "query.variant == 1"
+                        }
+                    ]
+                },
+                "night_glasses": {
+                    "transitions": [
+                        {
+                            "default": "query.variant != 1"
+                        }
+                    ],
+                    "on_exit": [
+                        "/effect @s clear"
+                    ]
+                }
+            }
+        }
+    }
+}
