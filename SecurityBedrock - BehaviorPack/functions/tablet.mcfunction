@@ -1,1 +1,1 @@
-structure laod tablet_final ~ ~ ~
+structure load tablet_final ~ ~ ~
