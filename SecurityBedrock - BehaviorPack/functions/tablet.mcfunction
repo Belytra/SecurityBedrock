@@ -1,1 +1,1 @@
-structure laod 
+structure laod tablet_final ~ ~ ~
