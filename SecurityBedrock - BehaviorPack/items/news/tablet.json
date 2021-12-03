@@ -23,7 +23,7 @@
             "sbc:on_use":{
                 "run_command": {
                     "command": [
-                        "structure load sbc:tablet ~ ~ ~"
+                        "structure load tablet_final ~ ~ ~"
                     ]
                 }
             }
