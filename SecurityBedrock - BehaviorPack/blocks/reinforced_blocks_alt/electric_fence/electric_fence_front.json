@@ -4,35 +4,13 @@
         "description": {
             "identifier": "scb:electric_fence",
             "properties": {
-                "sbc:directions": [0,1,2,3]
+                "sbc:directions": [0,1,2,3],
+                "sbc:east": [ true , false],
+                "scb:west": [ true , false],
+                "sbc:north": [ false , true],
+                "sbc:south": [ false , true]
             }
         },
-        "permutations": [
-            {
-                "condition": "query.block_property('sbc:directions') == 0",
-                "components": {
-                    "minecraft:rotation": [0,180,0]
-                }
-            },
-            {
-                "condition": "query.block_property('sbc:directions') == 1",
-                "components": {
-                    "minecraft:rotation": [0,0,0]
-                }
-            },
-            {
-                "condition": "query.block_property('sbc:directions') == 2",
-                "components": {
-                    "minecraft:rotation": [0,270,0]
-                }
-            },
-            {
-                "condition": "query.block_property('sbc:directions') == 3",
-                "components": {
-                    "minecraft:rotation": [0,90,0]
-                }
-            }
-        ],
         "components": {
             "minecraft:geometry": "geometry.electric_fence",
             "minecraft:material_instances": {
@@ -44,28 +22,12 @@
                 }
             },
             "minecraft:pick_collision": {
-                "origin": [
-                    -8,
-                    0,
-                    -1
-                ],
-                "size": [
-                    16,
-                    16,
-                    2
-                ]
+                "origin": [ -8, 0, -1 ],
+                "size": [ 16, 16, 2 ]
             },
             "minecraft:entity_collision": {
-                "origin": [
-                    -8,
-                    0,
-                    -1
-                ],
-                "size": [
-                    16,
-                    17,
-                    2
-                ]
+                "origin": [ -8, 0, -1 ],
+                "size": [ 16, 16, 2 ]
             },
             "minecraft:block_light_absorption": 0,
             "minecraft:on_player_placing": {
@@ -76,16 +38,22 @@
                 "event": "scb:hurts",
                 "target": "self"
             },
+            "minecraft:part_visibility": {
+                "rules": {
+                    "north": "query.block_property('sbc:north') == true",
+                    "south": "query.block_property('sbc:south') == true",
+                    "east": "query.block_property('sbc:east') == true",
+                    "west": "query.block_property('scb:west') == true"
+                }
+            },
             "minecraft:ticking": {
                 "looping": true,
                 "on_tick": {
                     "event": "sbc:wow"
                 },
-                "range": [
-                    0,1
-                ]
-            }
-            
+                "range": [ 0, 0 ]
+            },
+            "tag:electric:fence": {}
         },
         "events": {
             "sbc:place": {
@@ -100,13 +68,91 @@
                 }
             },
             "sbc:wow":{
-                "run_command": {
-                    "command": [
-                        "effect @e[r=1] instant_damage 1 0 true",
-                        "execute @e[r=1] ~ ~ ~ playsound utils.taser @a ~ ~ ~"
-                    ]
+                "sequence": [
+                    {///
+                        "condition": "query.block_property('sbc:directions') == 1 || query.block_property('sbc:directions') == 0 && q.block_neighbor_has_any_tag(0,0,-1,'electric:fence') == 1",
+                        "set_block_property": {
+                            "sbc:north": true
+                        }
+                    },
+                    {
+                        "condition": "query.block_property('sbc:directions') == 1 || query.block_property('sbc:directions') == 0 && q.block_neighbor_has_any_tag(0,0,-1,'electric:fence') == 0",
+                        "set_block_property": {
+                            "sbc:north": false
+                        }
+                    },
+                    {
+                        "condition": "query.block_property('sbc:directions') == 1 || query.block_property('sbc:directions') == 0 && q.block_neighbor_has_any_tag(0,0,1,'electric:fence') == 1",
+                        "set_block_property": {
+                            "sbc:south": true
+                        }
+                    },
+                    {
+                        "condition": "query.block_property('sbc:directions') == 1 || query.block_property('sbc:directions') == 0 && q.block_neighbor_has_any_tag(0,0,1,'electric:fence') == 0",
+                        "set_block_property": {
+                            "sbc:south": false
+                        }
+                    },///
+                    {
+                        "condition": "query.block_property('sbc:directions') == 2 || query.block_property('sbc:directions') == 3 && q.block_neighbor_has_any_tag(1,0,0,'electric:fence') == 1",
+                        "set_block_property": {
+                            "sbc:north": true
+                        }
+                    },
+                    {
+                        "condition": "query.block_property('sbc:directions') == 2 || query.block_property('sbc:directions') == 3 && q.block_neighbor_has_any_tag(1,0,0,'electric:fence') == 0",
+                        "set_block_property": {
+                            "sbc:north": false
+                        }
+                    },
+                    {
+                        "condition": "query.block_property('sbc:directions') == 2 || query.block_property('sbc:directions') == 3 && q.block_neighbor_has_any_tag(-1,0,0,'electric:fence') == 1",
+                        "set_block_property": {
+                            "sbc:south": true
+                        }
+                    },
+                    {
+                        "condition": "query.block_property('sbc:directions') == 2 || query.block_property('sbc:directions') == 3 && q.block_neighbor_has_any_tag(-1,0,0,'electric:fence') == 0",
+                        "set_block_property": {
+                            "sbc:south": false
+                        }
+                    },///
+                    {
+                        "run_command": {
+                            "command": [
+                                "effect @e[r=1] instant_damage 1 0 true",
+                                "execute @e[r=1] ~ ~ ~ playsound utils.taser @a [r=1] ~ ~ ~"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('sbc:directions') == 0",
+                "components": {
+                    "minecraft:rotation": [0,0,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 1",
+                "components": {
+                    "minecraft:rotation": [0,0,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 2",
+                "components": {
+                    "minecraft:rotation": [0,-90,0]
+                }
+            },
+            {
+                "condition": "query.block_property('sbc:directions') == 3",
+                "components": {
+                    "minecraft:rotation": [0,-90,0]
                 }
             }
-        }
+        ]
     }
 }
