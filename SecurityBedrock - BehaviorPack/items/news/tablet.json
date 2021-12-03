@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "sbc:tablet",
-            "category": "Items"
+            "category": "Equipment"
         },
         "components": {
             "minecraft:icon": {
@@ -23,7 +23,7 @@
             "sbc:on_use":{
                 "run_command": {
                     "command": [
-                        "function open_tablet"
+                        "structure load tablet_final ~ ~ ~"
                     ]
                 }
             }
