@@ -5,6 +5,9 @@
             "initial_state": "default",
             "states": {
                 "default": {
+                    "on_entry": [
+                        "/dialogue open @s @p"
+                    ],
                     "transitions": [
                         {
                             "state_1": "query.mark_variant == 7"
@@ -13,7 +16,7 @@
                 },
                 "state_1": {
                     "on_entry": [
-                        "/dialogue open @e[type=sbc:tablet_func,r=2,c=1] @p"
+                        "/dialogue open @s @p"
                     ],
                     "transitions": [
                         {
