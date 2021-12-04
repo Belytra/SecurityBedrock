@@ -1,4 +1,3 @@
-//bridge-file-version: #113
 {
 	"namespace": "npc_interact",
 	"multiline_text_edit_control@common.multiline_text_edit_box": {
@@ -1153,12 +1152,13 @@
 		"type": "image",
 		"texture": "textures/ui/tablet_ui",
 		"size": [
-			270,
-			270 
+			"200%",
+			"200%" 
 		],
+		"anchor_to": "center",
+		"anchor_from": "center",
 		"offset": [
-			-17,
-			120
+			"0px", "70px"
 		]
 	},
 	"student_message_section@common.empty_panel": {
