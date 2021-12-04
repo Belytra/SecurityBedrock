@@ -42,6 +42,10 @@
             }
         ],
         "components": {
+            "minecraft:creative_category": {
+                "category": "Items",
+                "group": "itemGroup.name.diamond"
+            },
             "minecraft:display_name": "camera",
             "minecraft:destroy_time": 2,
             "minecraft:geometry": "geometry.security_camera",

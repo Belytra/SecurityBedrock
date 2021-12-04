@@ -2,10 +2,12 @@
     "format_version": "1.16.100",
     "minecraft:block": {
         "description": {
-            "identifier": "sbc:land_mine",
-            "register_to_creative_menu": true
+            "identifier": "sbc:land_mine"
         },
         "components": {
+            "minecraft:creative_category": {
+                "category": "Construction"
+            },
             "minecraft:destroy_time": 3,
             "minecraft:geometry": "geometry.mine",
             "minecraft:material_instances": {

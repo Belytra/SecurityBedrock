@@ -12,6 +12,9 @@
             }
         },
         "components": {
+            "minecraft:creative_category": {
+                "category": "Construction"
+            },
             "minecraft:geometry": "geometry.electric_fence",
             "minecraft:material_instances": {
                 "*": {

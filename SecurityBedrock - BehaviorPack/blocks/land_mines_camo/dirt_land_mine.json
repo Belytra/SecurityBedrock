@@ -5,6 +5,9 @@
             "identifier": "sbc:dirt_land_mine"
         },
         "components": {
+            "minecraft:creative_category": {
+                "category": "Construction"
+            },
             "minecraft:destroy_time": 3,
             "minecraft:material_instances": {
                 "*": {

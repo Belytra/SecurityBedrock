@@ -67,6 +67,10 @@
             }
         ],
         "components": {
+            "minecraft:creative_category": {
+                "category": "Construction",
+                "group": "itemGroup.name.door"
+            },
             "minecraft:destroy_time": 100000,
             "minecraft:explosion_resistance": 100000,
             "minecraft:material_instances": {

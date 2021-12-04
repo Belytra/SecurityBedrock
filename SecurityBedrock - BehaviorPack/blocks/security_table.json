@@ -1,11 +1,15 @@
 {
-    "format_version": "1.16.200",
+    "format_version": "1.17.0",
     "minecraft:block": {
         "description": {
             "identifier": "sbc:security_table",
             "properties": {}
         },
         "components": {
+            "minecraft:creative_category": {
+                "category": "Items",
+                "group": "itemGroup.name.diamond"
+            },
             "minecraft:destroy_time": 3,
             "minecraft:geometry": "geometry.table",
             "minecraft:material_instances": {

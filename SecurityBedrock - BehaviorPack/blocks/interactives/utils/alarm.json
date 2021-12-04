@@ -6,6 +6,10 @@
             "properties": {}
         },
         "components": {
+            "minecraft:creative_category": {
+                "category": "Items",
+                "group": "itemGroup.name.diamond"
+            },
             "minecraft:block_light_absorption": 0,
             "minecraft:material_instances": {
                 "*": {

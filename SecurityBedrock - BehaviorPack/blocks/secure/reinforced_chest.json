@@ -34,6 +34,9 @@
             }
         ],
         "components": {
+            "minecraft:creative_category": {
+                "category": "Construction"
+            },
             "minecraft:material_instances": {
                 "*": {
                     "render_method": "blend",

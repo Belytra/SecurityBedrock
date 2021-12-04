@@ -7,6 +7,9 @@
             "register_to_creative_menu": true
         },
         "components": {
+            "minecraft:creative_category": {
+                "category": "Construction"
+            },
             "minecraft:destroy_time": 10000,
             "minecraft:explosion_resistance": 10000,
             "minecraft:on_interact": {
