@@ -22,7 +22,7 @@ export const ca_camera_active_tags = (CAM_TAG,PLAYER_NAME,GET_CAM) => {
         Commands.run(`tag "${PLAYER_NAME}" add incam_join`,World.getDimension('overworld'));
     }else {
         Commands.run(`tellraw "${PLAYER_NAME}" {"rawtext":[{"text":"§cCamara no Configurada..","color":"red"}]}`,World.getDimension('overworld'));
-        Commands.run(`tag "${PLAYER_NAME}" remove cam1`,World.getDimension('overworld'));
+        Commands.run(`tag "${PLAYER_NAME}" remove ${CAM_TAG}`,World.getDimension('overworld'));
     }    
 }
 
