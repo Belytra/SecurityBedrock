@@ -24,8 +24,8 @@
                 "controller.render.default"
             ],
             "spawn_egg": {
-                "base_color": "#288483",
-                "overlay_color": "#2B7135"
+                "texture": "radar_item",
+                "texture_index": 0
             }
         }
     }

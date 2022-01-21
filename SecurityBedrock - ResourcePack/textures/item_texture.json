@@ -1,6 +1,11 @@
 {
     "resource_pack_name": "vanilla",
     "texture_data": {
+        "radar_item":{
+            "textures": [
+                "belytra_assets/items/radar"
+            ]
+        },
         "bulletproof":{
             "textures":[
                 "belytra_assets/items/bulletproof"
