@@ -1,0 +1,23 @@
+{
+    "format_version": "1.17.0",
+    "animation_controllers": {
+        "controller.animation.radar_system": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "state_1": "query.variant == 6"
+                        }
+                    ]
+                },
+                "state_1": {
+                    "on_entry": [
+                        "/effect @s invisibility 10 1 true",
+                        "/kill @s"
+                    ]
+                }
+            }
+        }
+    }
+}

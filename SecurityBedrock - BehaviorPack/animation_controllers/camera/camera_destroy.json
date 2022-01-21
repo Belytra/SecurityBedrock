@@ -1,0 +1,24 @@
+{
+    "format_version": "1.17.0",
+    "animation_controllers": {
+        "controller.animation.camera_destroy": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "state_1": "query.variant == 6"
+                        }
+                    ]
+                },
+                "state_1": {
+                    "on_entry": [
+                        "/effect @s invisibility 10 1 true",
+                        "/setblock ~ ~ ~ minecraft:air 0 destroy",
+                        "/kill @s"
+                    ]
+                }
+            }
+        }
+    }
+}

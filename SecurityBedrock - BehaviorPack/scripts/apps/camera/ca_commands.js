@@ -22,6 +22,9 @@ export const ca_config = (MSG_EVENT) => {
             //Comando Fallido... (Colocar un /tellraw para notificar que fallo...)
             MessageToPlayer(MSG_EVENT.sender.nameTag,`§cPorfavor Coloca un numero EJEMPLO: !camera set 5`);
         }
+    }else if( args[0] == '!camera' && args[1] == 'exit' ){
+        Commands.run(`execute "${MSG_EVENT.sender.nameTag}" ~ ~ ~ function camera/camera_exit`,World.getDimension('overworld'));
+        MSG_EVENT.cancel = true;
     }
 
 }

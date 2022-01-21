@@ -4,11 +4,24 @@
         "description": {
             "identifier": "sbc:radar_gen",
             "is_spawnable": true,
-            "is_summonable": true
+            "is_summonable": true,
+            "animations": {
+                "controls": "controller.animation.radar_system"
+            },
+            "scripts": {
+                "animate": [
+                    "controls"
+                ]
+            }
         },
         "component_groups": {
             "sbc:tamed":{
                 "minecraft:is_tamed": {}
+            },
+            "sb:remove":{
+                "minecraft:variant": {
+                    "value": 6
+                }
             }
         },
         "components": {
@@ -30,6 +43,37 @@
                     "event": "sbc:tamed",
                     "target": "self"
                 }
+            },
+            "minecraft:loot": {
+                "table": "loot_tables/radar.json"
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {
+                        "swing": true,
+                        "on_interact": {
+                            "filters": [
+                                {
+                                    "all_of": [
+                                        {
+                                            "test": "has_equipment",
+                                            "subject": "other",
+                                            "domain": "hand",
+                                            "value": "sbc:block_remover"
+                                        },
+                                        {
+                                            "test": "is_owner",
+                                            "subject": "other",
+                                            "value": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "event": "sb:remove",
+                            "target": "self"
+                        }
+                    }
+                ]
             }
         },
         "events": {
@@ -37,6 +81,13 @@
                 "add": {
                     "component_groups": [
                         "sbc:tamed"
+                    ]
+                }
+            },
+            "sb:remove":{
+                "add": {
+                    "component_groups": [
+                        "sb:remove"
                     ]
                 }
             }

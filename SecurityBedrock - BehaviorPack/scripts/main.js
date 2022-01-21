@@ -29,6 +29,7 @@ World.events.tick.subscribe(ev => {
         });
 
     }
+
 });
 
 World.events.beforeChat.subscribe(ev => {

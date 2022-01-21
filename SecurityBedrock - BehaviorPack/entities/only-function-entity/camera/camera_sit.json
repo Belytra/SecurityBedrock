@@ -7,16 +7,23 @@
             "is_summonable": true,
             "animations": {
                 "funk":"controller.animation.camera_funk",
-                "only":"controller.animation.camera.owner_only_ride"
+                "only":"controller.animation.camera.owner_only_ride",
+                "destroy": "controller.animation.camera_destroy"
             },
             "scripts": {
                 "animate": [
                     "funk",
-                    "only"
+                    "only",
+                    "destroy"
                 ]
             }
         },
         "component_groups": {
+            "sbc:destroy": {
+                "minecraft:variant": {
+                    "value": 6
+                }
+            },
             "sbc:despawn":{
                 "minecraft:instant_despawn": {
                     "remove_child_entities": false
@@ -82,14 +89,23 @@
                         "on_interact": {
                             "filters": [
                                 {
-                                    "test":"has_equipment",
-                                    "domain": "hand",
-                                    "subject": "other",
-                                    "value": "sbc:block_remover"
+                                    "all_of": [
+                                        {
+                                            "test":"has_equipment",
+                                            "domain": "hand",
+                                            "subject": "other",
+                                            "value": "sbc:block_remover"
+                                        },
+                                        {
+                                            "test": "is_owner",
+                                            "subject": "other",
+                                            "value": true
+                                        }
+                                    ]
                                 }
                             ],
                             "target": "self",
-                            "event": "to:foo"
+                            "event": "sbc:destroy"
                         }
                     }
                 ]
@@ -145,6 +161,13 @@
                 "add": {
                     "component_groups": [
                         "sbc:innocent"
+                    ]
+                }
+            },
+            "sbc:destroy":{
+                "add": {
+                    "component_groups": [
+                        "sbc:destroy"
                     ]
                 }
             }
